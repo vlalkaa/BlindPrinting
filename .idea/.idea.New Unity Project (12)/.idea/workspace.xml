@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bffa236-8ca4-46af-b3c1-8f0db4a32974" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/m.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/i.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/a.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/l.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/j1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/z.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/o.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/k.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/p.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/e.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/n.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/_1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ii.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/v.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/d.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/n1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/o.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/o1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/r1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/c1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/t1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/u1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/f1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/h1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backSpace.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backSpace1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl1.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_21.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_2.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_21.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j093fegsJSd9wABmuAETJicLn6" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bffa236-8ca4-46af-b3c1-8f0db4a32974" name="Default Changelist" comment="" />
+      <created>1602929950258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602929950258</updated>
+      <workItem from="1602929957904" duration="264000" />
+      <workItem from="1602930237553" duration="7095000" />
+      <workItem from="1602956195500" duration="7972000" />
+      <workItem from="1603030620081" duration="3000" />
+      <workItem from="1603030646697" duration="223000" />
+      <workItem from="1603030900188" duration="802000" />
+      <workItem from="1603034731976" duration="1714000" />
+      <workItem from="1603036738899" duration="170000" />
+      <workItem from="1603036980827" duration="12828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

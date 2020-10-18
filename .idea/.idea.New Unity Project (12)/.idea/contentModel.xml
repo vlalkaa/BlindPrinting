@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\progUnity\New Unity Project (12)" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ClickAnimationScripts" t="Include">
+          <e p="_.cs" t="Include" />
+          <e p="_1.cs" t="Include" />
+          <e p="a.cs" t="Include" />
+          <e p="a1.cs" t="Include" />
+          <e p="b.cs" t="Include" />
+          <e p="b1.cs" t="Include" />
+          <e p="backSpace.cs" t="Include" />
+          <e p="backSpace1.cs" t="Include" />
+          <e p="c.cs" t="Include" />
+          <e p="c1.cs" t="Include" />
+          <e p="caps.cs" t="Include" />
+          <e p="caps1.cs" t="Include" />
+          <e p="ch.cs" t="Include" />
+          <e p="ch1.cs" t="Include" />
+          <e p="ci.cs" t="Include" />
+          <e p="ci1.cs" t="Include" />
+          <e p="ctrl.cs" t="Include" />
+          <e p="ctrl1.cs" t="Include" />
+          <e p="ctrl_2.cs" t="Include" />
+          <e p="ctrl_21.cs" t="Include" />
+          <e p="d.cs" t="Include" />
+          <e p="d1.cs" t="Include" />
+          <e p="e.cs" t="Include" />
+          <e p="e1.cs" t="Include" />
+          <e p="ea.cs" t="Include" />
+          <e p="ea1.cs" t="Include" />
+          <e p="enter.cs" t="Include" />
+          <e p="enter1.cs" t="Include" />
+          <e p="f.cs" t="Include" />
+          <e p="f1.cs" t="Include" />
+          <e p="g.cs" t="Include" />
+          <e p="g1.cs" t="Include" />
+          <e p="h.cs" t="Include" />
+          <e p="h1.cs" t="Include" />
+          <e p="i.cs" t="Include" />
+          <e p="i1.cs" t="Include" />
+          <e p="ii.cs" t="Include" />
+          <e p="ii1.cs" t="Include" />
+          <e p="j.cs" t="Include" />
+          <e p="j1.cs" t="Include" />
+          <e p="k.cs" t="Include" />
+          <e p="k1.cs" t="Include" />
+          <e p="l.cs" t="Include" />
+          <e p="l1.cs" t="Include" />
+          <e p="m.cs" t="Include" />
+          <e p="m1.cs" t="Include" />
+          <e p="mz.cs" t="Include" />
+          <e p="mz1.cs" t="Include" />
+          <e p="n.cs" t="Include" />
+          <e p="n1.cs" t="Include" />
+          <e p="o.cs" t="Include" />
+          <e p="o1.cs" t="Include" />
+          <e p="p.cs" t="Include" />
+          <e p="p1.cs" t="Include" />
+          <e p="r.cs" t="Include" />
+          <e p="r1.cs" t="Include" />
+          <e p="sh.cs" t="Include" />
+          <e p="sh1.cs" t="Include" />
+          <e p="shch.cs" t="Include" />
+          <e p="shch1.cs" t="Include" />
+          <e p="shift.cs" t="Include" />
+          <e p="shift1.cs" t="Include" />
+          <e p="shift_2.cs" t="Include" />
+          <e p="shift_21.cs" t="Include" />
+          <e p="space.cs" t="Include" />
+          <e p="space1.cs" t="Include" />
+          <e p="t.cs" t="Include" />
+          <e p="t1.cs" t="Include" />
+          <e p="tz.cs" t="Include" />
+          <e p="tz1.cs" t="Include" />
+          <e p="u.cs" t="Include" />
+          <e p="u1.cs" t="Include" />
+          <e p="uy.cs" t="Include" />
+          <e p="uy1.cs" t="Include" />
+          <e p="v.cs" t="Include" />
+          <e p="v1.cs" t="Include" />
+          <e p="ya.cs" t="Include" />
+          <e p="ya1.cs" t="Include" />
+          <e p="yu.cs" t="Include" />
+          <e p="yu1.cs" t="Include" />
+          <e p="z.cs" t="Include" />
+          <e p="z1.cs" t="Include" />
+        </e>
+        <e p="PlayAmina.cs" t="Include" />
+      </e>
+      <e p="New Unity Project (12).sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Алла\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Алла\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_New Unity Project (12).30870736.00" t="ExcludeRecursive" />
+  </component>
+</project>
