@@ -506,7 +506,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 72df1517645db0c42892074ba6cec753, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!114 &352359617
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2579,23 +2579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbed0cd12b1f7f4c912b673f0560b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1538427146 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6795864619130198678, guid: 18527efb5b0351d44b27c6e116319cce, type: 3}
-  m_PrefabInstance: {fileID: 2000180173}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1538427148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538427146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7295c7b14f365ca4c933d246ff234faa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1542108435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6871267318509740888, guid: 18527efb5b0351d44b27c6e116319cce, type: 3}
@@ -2724,8 +2707,6 @@ GameObject:
   - component: {fileID: 1680956502}
   - component: {fileID: 1680956504}
   - component: {fileID: 1680956503}
-  - component: {fileID: 1680956505}
-  - component: {fileID: 1680956506}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2793,34 +2774,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680956501}
   m_CullTransparentMesh: 0
---- !u!114 &1680956505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680956501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d44926b569bfe4db9bb98616c019c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!111 &1680956506
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680956501}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 0}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &1695196307 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2122922134723202811, guid: 18527efb5b0351d44b27c6e116319cce, type: 3}
@@ -3105,7 +3058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3306,7 +3259,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 985ddc26a9638fb41a804f5d581a0d0c, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!114 &1914064144
@@ -4196,7 +4149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
