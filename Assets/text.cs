@@ -1,31 +1,37 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 using Random = System.Random;
 
 public class text : MonoBehaviour
 {
-    public Text MyTestLabel;
-    public string str;
-
-    public char ch;
+    public Text textMain;
+    public Text textInform;
+    private string str;
+    private char ch;
+    private int lengthStr;
+    private Stopwatch stopWatch = new Stopwatch();
 
     void Start()
     {
         str = textRand();
         string space = "  ";
+
+        lengthStr = str.Length;
         
-        MyTestLabel.text = space;
+        textMain.text = space;
 
         for (int i = 0; i < 19; i++)
         {
             if (i == str.Length)
                 break;
-            MyTestLabel.text = MyTestLabel.text + str[i];
+            textMain.text = textMain.text + str[i];
         }
     }
 
@@ -39,30 +45,30 @@ public class text : MonoBehaviour
             {
                 str = str.Remove(0, 1);
                 if (ch == '\n')
-                    MyTestLabel.text = $"  <color=grey>{'|'}</color>";
+                    textMain.text = $"  <color=grey>{'|'}</color>";
                 else
-                    MyTestLabel.text = $" <color=green>{tempch}</color>" + $"<color=grey>{'|'}</color>";
+                    textMain.text = $" <color=green>{tempch}</color>" + $"<color=grey>{'|'}</color>";
                 for (int i = 0; i < 18; i++)
                 {
                     if (i == str.Length)
                         break;
-                    MyTestLabel.text = MyTestLabel.text + str[i];
+                    textMain.text = textMain.text + str[i];
                 }
             }
             else if (str[0] != ch)
             {
-                MyTestLabel.text = $"  <color=red>{'|'}</color>" + $"<color=red>{tempch}</color>";
+                textMain.text = $"  <color=red>{'|'}</color>" + $"<color=red>{tempch}</color>";
                 for (int i = 1; i < 18; i++)
                 {
                     if (i == str.Length)
                         break;
-                    MyTestLabel.text = MyTestLabel.text + str[i];
+                    textMain.text = textMain.text + str[i];
                 }
             }
         }
         else if (str.Length == 0)
         {
-            MyTestLabel.text = str;
+            textMain.text = str;
         }
     }
 
@@ -85,9 +91,8 @@ public class text : MonoBehaviour
         
         return tempstr;
     }
-    
-    // Update is calle once per frame
-    void Update()
+
+    void pressingKeyboard()
     {
         //SHIFT
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) 
@@ -650,6 +655,22 @@ public class text : MonoBehaviour
                 ch = '-';
                 check();
             }
+        }
+    }
+    
+    // Update is calle once per frame
+    void Update()
+    {
+        pressingKeyboard();
+        if (str.Length == lengthStr - 1)
+            stopWatch.Start();
+        if (str.Length == 0)
+        {
+            stopWatch.Stop();
+            long seconds = stopWatch.ElapsedMilliseconds/1000;
+            long tempF = 60 * lengthStr / seconds;
+            textInform.text = tempF.ToString() + " зн/m";
+            Debug.Log(60 * lengthStr / seconds);
         }
         
     }
