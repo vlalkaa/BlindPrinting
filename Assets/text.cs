@@ -65,7 +65,7 @@ public class text : MonoBehaviour
             }
             else if (str[0] != ch)
             {
-                numButton[numChar]++;
+                numButton[NumChar(str[0])]++;
                 textMain.text = $"  <color=red>{'|'}</color>" + $"<color=red>{tempch}</color>";
                 for (int i = 1; i < 18; i++)
                 {
@@ -694,8 +694,6 @@ public class text : MonoBehaviour
             {
                 for (int i = 0; i < 104; i++)
                 {
-                    
-                    
                     if (numButton[i] != 0)
                     {
                         char tempChar = ' ';
@@ -847,5 +845,254 @@ public class text : MonoBehaviour
 
             oneEnter--;
         }
+    }
+
+    int NumChar(char tempChar)
+    {
+        int tempInt = -1;
+
+        switch (tempChar)
+        {
+          case ',':
+                tempInt = 0;
+                break;
+            case 'А':
+                tempInt = 1;
+                break;
+            case 'Б':
+                tempInt = 2;
+                break;
+            case 'В':
+                tempInt = 3;
+                break;
+            case 'Г':
+                tempInt = 4;
+                break;
+            case 'Д':
+                tempInt = 5;
+                break;
+            case 'Е':
+                tempInt = 6;
+                break;
+            case 'Ё':
+                tempInt = 7;
+                break;
+            case 'Ж':
+                tempInt = 8;
+                break;
+            case 'З':
+                tempInt = 9;
+                break;
+            case 'И':
+                tempInt = 10;
+                break;
+            case 'Й':
+                tempInt = 11;
+                break;
+            case 'К':
+                tempInt = 12;
+                break;
+            case 'Л':
+                tempInt = 13;
+                break;
+            case 'М':
+                tempInt = 14;
+                break;
+            case 'Н':
+                tempInt = 15;
+                break;
+            case 'О':
+                tempInt = 16;
+                break;
+            case 'П':
+                tempInt = 17;
+                break;
+            case 'Р':
+                tempInt = 18;
+                break;
+            case 'С':
+                tempInt = 19;
+                break;
+            case 'Т':
+                tempInt = 20;
+                break;
+            case 'У':
+                tempInt = 21;
+                break;
+            case 'Ф':
+                tempInt = 22;
+                break;
+            case 'Х':
+                tempInt = 23;
+                break;
+            case 'Ц':
+                tempInt = 24;
+                break;
+            case 'Ч':
+                tempInt = 25;
+                break;
+            case 'Ш':
+                tempInt = 26;
+                break;
+            case 'Щ':
+                tempInt = 27;
+                break;
+            case 'Ъ':
+                tempInt = 28;
+                break;
+            case 'Ы':
+                tempInt = 29;
+                break;
+            case 'Ь':
+                tempInt = 30;
+                break;
+            case 'Э':
+                tempInt = 31;
+                break;
+            case 'Ю':
+                tempInt = 32;
+                break;
+            case 'Я':
+                tempInt = 33;
+                break;
+            case 'а':
+                tempInt = 1;
+                break;
+            case 'б':
+                tempInt = 2;
+                break;
+            case 'в':
+                tempInt = 3;
+                break;
+            case 'г':
+                tempInt = 4;
+                break;
+            case 'д':
+                tempInt = 5;
+                break;
+            case 'е':
+                tempInt = 6;
+                break;
+            case 'ё':
+                tempInt = 7;
+                break;
+            case 'ж':
+                tempInt = 8;
+                break;
+            case 'з':
+                tempInt = 9;
+                break;
+            case 'и':
+                tempInt = 10;
+                break;
+            case 'й':
+                tempInt = 11;
+                break;
+            case 'к':
+                tempInt = 12;
+                break;
+            case 'л':
+                tempInt = 13;
+                break;
+            case 'м':
+                tempInt = 14;
+                break;
+            case 'н':
+                tempInt = 15;
+                break;
+            case 'о':
+                tempInt = 16;
+                break;
+            case 'п':
+                tempInt = 17;
+                break;
+            case 'р':
+                tempInt = 18;
+                break;
+            case 'с':
+                tempInt = 19;
+                break;
+            case 'т':
+                tempInt = 20;
+                break;
+            case 'у':
+                tempInt = 21;
+                break;
+            case 'ф':
+                tempInt = 22;
+                break;
+            case 'х':
+                tempInt = 23;
+                break;
+            case 'ц':
+                tempInt = 24;
+                break;
+            case 'ч':
+                tempInt = 25;
+                break;
+            case 'ш':
+                tempInt = 26;
+                break;
+            case 'щ':
+                tempInt = 27;
+                break;
+            case 'ъ':
+                tempInt = 28;
+                break;
+            case 'ы':
+                tempInt = 29;
+                break;
+            case 'ь':
+                tempInt = 30;
+                break;
+            case 'э':
+                tempInt = 31;
+                break;
+            case 'ю':
+                tempInt = 32;
+                break;
+            case 'я':
+                tempInt = 33;
+                break;
+            case '!':
+                tempInt = 34;
+                break;
+            case '"':
+                tempInt = 35;
+                break;
+            case ';':
+                tempInt = 36;
+                break;
+            case ':':
+                tempInt = 37;
+                break;
+            case '?':
+                tempInt = 38;
+                break;
+            case '*':
+                tempInt = 39;
+                break;
+            case '(':
+                tempInt = 40;
+                break;
+            case ')':
+                tempInt = 41;
+                break;
+            case ' ':
+                tempInt = 42;
+                break;
+            case '.':
+                tempInt = 43;
+                break;
+            case '↵':
+                tempInt = 44;
+                break;
+            case '-':
+                tempInt = 45;
+                break;
+            
+        }
+
+        return tempInt;
     }
 }
