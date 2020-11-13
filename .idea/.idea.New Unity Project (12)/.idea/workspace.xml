@@ -20,45 +20,275 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bffa236-8ca4-46af-b3c1-8f0db4a32974" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimButton/start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimButton/start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/_.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/_.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/a.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/a.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/b.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/b.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/bakcspace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/bakcspace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/c.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/c.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/caps.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/caps.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ch.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ch.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ci.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ci.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ctrl.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ctrl.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ctrl_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ctrl_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/d.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/d.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/e.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/e.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ea.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ea.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/enter.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/enter.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/g.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/g.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/h.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/h.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/i.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/i.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ii.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ii.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/k.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/k.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/l.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/l.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/m.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/m.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/mz.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/mz.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/n.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/n.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/o.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/o.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/p.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/p.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/r.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/r.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/sh.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/sh.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shch.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shch.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shift.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shift.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shift_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/shift_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/space.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/space.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/t.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/t.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/tz.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/tz.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/u.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/u.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/uy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/uy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/v.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/v.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ya.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ya.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/yu.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/yu.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/z.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/z.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ж.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimLetters/ж.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/_.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/_.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/_1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/_1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/a.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/a.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/a1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/a1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/b.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/b.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/b1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/b1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/c1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/c1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_21.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_21.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/d.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/d.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/d1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/d1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/e.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/e.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/e1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/e1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/f1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/f1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/g.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/g1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/g1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/h1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/h1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/i.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/i1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/i1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ii.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ii.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ii1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ii1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/j.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/j.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/j1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/j1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/k.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/k.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/k1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/k1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/l.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/l.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/l1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/l1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/m.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/m.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/m1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/m1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/n.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/n.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/n1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/n1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/o.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/o.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/o1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/o1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/p.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/p.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/p1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/p1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/r1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/r1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_21.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_21.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/space.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/space.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/space1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/space1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/t1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/t1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/u1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/u1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/v.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/v.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/v1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/v1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/z.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/z.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/z1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickAnimationScripts/z1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/text.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/0719fbbb113d95339621506f52a93101" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0c/0c296861d678a09e976126a50ecfd97e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/11fc515040a66c5138e0ae040b0e077e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/272af85905e241671512c9510edb0662" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2c/2c565dd5fe10012a12e58fd05b44af41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/32/329f66d58c1795afd5be99b9c498df3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/34/34e06012fc5dc8a4006e66cb8f2abe90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38a99c26866713f24064a33167089338" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3b/3b6bdd8104d7ae69b815f0888bedafbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/43/43db0ebe79eb7fdedc47eb8adeac5449" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/50/50c936c2d6d35b1170ad8c3d666e7ab8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5d40ff87051cad35750dbb8adde1d9ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/7634c593b573c360716e69ec9eeff148" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7c/7c8b1558cacbef9c3c3f932b3c87f626" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7f02ebb0e2c95a5f2f7a6d2e3abedece" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7f/7ff6632edff50a24f712ac7d78936ab3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/80/80628f580e107c44210ef65c3a61f6cf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/9265ad1e25039ea8d70c07136ed68d65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/94/94176c1e191e0972b78bed5e847c7d8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9d8dfaa18f974438324443e50d7866f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a3/a39cc863cf1108cec1fee65fc25d442f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ad/ad7da200842b27b51aeaeafafcdeda1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b1/b102cd38d497b6a5d9999ebbc67005e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bc97c9d97761c53437f668e5b82ebea0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c2/c2e3285e4d1818f2b08086b3ceae5ab8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c4e79b6e532c126ed7781d5c6f9ce12c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e9/e96e3a56561ed62425f0583d4bb0fe03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f4/f4f2502a2abd388e5d9efeb04a83d6c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f87cf192e308961a4504e880cebb8fbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/06/062ea995e79874cc83fd7e31c42c0776" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboard_classic.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,96 +299,80 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/m.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/i.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/a.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/g.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/l.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/j1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/z.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/o.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/k.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/p.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/e.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/n.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/_1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ii.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/v.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/d.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C8.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/l_shift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/тире.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/l_alt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/r_ctrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/г.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/r_shift.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ё.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/r_alt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/е.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Caps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Space.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Backspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ъ.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/плюс.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/я.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/l_ctrl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/r.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/r1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/c.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/c1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/t.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/t1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/u.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/u1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/f.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/f1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/h.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/h1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ci1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ch1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/sh1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shch1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/tz1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/uy1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/mz1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ea1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/yu1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ya1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backSpace.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backSpace1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/caps1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/backspace1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/enter1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl1.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_2.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/ctrl_21.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_2.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift_21.cs" />
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/shift1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Text.cs" />
-        <option value="$PROJECT_DIR$/Assets/Text1.txt" />
+        <option value="$PROJECT_DIR$/Assets/C9.cs" />
+        <option value="$PROJECT_DIR$/Assets/ё.cs" />
+        <option value="$PROJECT_DIR$/Assets/тире.cs" />
+        <option value="$PROJECT_DIR$/Assets/плюс.cs" />
+        <option value="$PROJECT_DIR$/Assets/tab.cs" />
+        <option value="$PROJECT_DIR$/Assets/l_shift.cs" />
+        <option value="$PROJECT_DIR$/Assets/r_shift.cs" />
+        <option value="$PROJECT_DIR$/Assets/Enter.cs" />
+        <option value="$PROJECT_DIR$/Assets/l_ctrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/r_ctrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Caps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Space.cs" />
+        <option value="$PROJECT_DIR$/Assets/r_alt.cs" />
+        <option value="$PROJECT_DIR$/Assets/l_alt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Backspace.cs" />
+        <option value="$PROJECT_DIR$/Assets/палка.cs" />
+        <option value="$PROJECT_DIR$/Assets/г.cs" />
+        <option value="$PROJECT_DIR$/Assets/е.cs" />
+        <option value="$PROJECT_DIR$/Assets/ъ.cs" />
+        <option value="$PROJECT_DIR$/Assets/щ.cs" />
+        <option value="$PROJECT_DIR$/Assets/ш.cs" />
+        <option value="$PROJECT_DIR$/Assets/ц.cs" />
+        <option value="$PROJECT_DIR$/Assets/х.cs" />
+        <option value="$PROJECT_DIR$/Assets/у.cs" />
+        <option value="$PROJECT_DIR$/Assets/н.cs" />
+        <option value="$PROJECT_DIR$/Assets/к.cs" />
+        <option value="$PROJECT_DIR$/Assets/й.cs" />
+        <option value="$PROJECT_DIR$/Assets/з.cs" />
+        <option value="$PROJECT_DIR$/Assets/э.cs" />
+        <option value="$PROJECT_DIR$/Assets/ы.cs" />
+        <option value="$PROJECT_DIR$/Assets/ф.cs" />
+        <option value="$PROJECT_DIR$/Assets/р.cs" />
+        <option value="$PROJECT_DIR$/Assets/п.cs" />
+        <option value="$PROJECT_DIR$/Assets/о.cs" />
+        <option value="$PROJECT_DIR$/Assets/л.cs" />
+        <option value="$PROJECT_DIR$/Assets/ж.cs" />
+        <option value="$PROJECT_DIR$/Assets/д.cs" />
+        <option value="$PROJECT_DIR$/Assets/в.cs" />
+        <option value="$PROJECT_DIR$/Assets/а.cs" />
+        <option value="$PROJECT_DIR$/Assets/я.cs" />
+        <option value="$PROJECT_DIR$/Assets/ю.cs" />
+        <option value="$PROJECT_DIR$/Assets/ь.cs" />
+        <option value="$PROJECT_DIR$/Assets/ч.cs" />
+        <option value="$PROJECT_DIR$/Assets/т.cs" />
+        <option value="$PROJECT_DIR$/Assets/с.cs" />
+        <option value="$PROJECT_DIR$/Assets/м.cs" />
+        <option value="$PROJECT_DIR$/Assets/и.cs" />
+        <option value="$PROJECT_DIR$/Assets/б.cs" />
+        <option value="$PROJECT_DIR$/Assets/точка.cs" />
+        <option value="$PROJECT_DIR$/Assets/settings.cs" />
         <option value="$PROJECT_DIR$/Assets/text.cs" />
       </list>
     </option>
@@ -227,6 +441,16 @@
       <workItem from="1604447502735" duration="8028000" />
       <workItem from="1604530582782" duration="992000" />
       <workItem from="1604596480570" duration="2392000" />
+      <workItem from="1604690597143" duration="1153000" />
+      <workItem from="1605104840484" duration="8554000" />
+      <workItem from="1605188942460" duration="1940000" />
+      <workItem from="1605241944966" duration="10897000" />
+      <workItem from="1605267260657" duration="1000" />
+      <workItem from="1605267314427" duration="20000" />
+      <workItem from="1605267462880" duration="1000" />
+      <workItem from="1605267618844" duration="1000" />
+      <workItem from="1605267693292" duration="1000" />
+      <workItem from="1605268638814" duration="2935000" />
     </task>
     <servers />
   </component>
@@ -251,10 +475,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="57" key="SettingsEditor" timestamp="1603831863393">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605247374869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603831863393" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605247374869" />
     <state x="93" y="93" width="1350" height="638" key="VCS.FileHistoryDialog" timestamp="1604239994075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
