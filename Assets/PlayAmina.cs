@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayAmina : MonoBehaviour
 {
-
+    private int i = 0;
     public void StartPressed()
     {
         GetComponent<Animation>().Play("start");
@@ -22,7 +22,12 @@ public class PlayAmina : MonoBehaviour
 
     public void InputPressed()
     {
-        GetComponent<Animation>().Play("input");
+        if (i == 0)
+        {
+            GetComponent<Animation>().Play("input");
+            i++;
+        }
+        
     }
 
     public void BackToMenuPressed()

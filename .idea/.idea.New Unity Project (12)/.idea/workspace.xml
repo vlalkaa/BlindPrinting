@@ -20,22 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bffa236-8ca4-46af-b3c1-8f0db4a32974" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimButton/input.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimButton/input.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimButton/settings.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimButton/settings.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayAmina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayAmina.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/home.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/text.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,8 +102,8 @@
         <option value="$PROJECT_DIR$/Assets/б.cs" />
         <option value="$PROJECT_DIR$/Assets/точка.cs" />
         <option value="$PROJECT_DIR$/Assets/settings.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayAmina.cs" />
         <option value="$PROJECT_DIR$/Assets/text.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayAmina.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +183,7 @@
       <workItem from="1605268638814" duration="2935000" />
       <workItem from="1605285272834" duration="9654000" />
       <workItem from="1605712245515" duration="11693000" />
+      <workItem from="1606301571308" duration="676000" />
     </task>
     <servers />
   </component>
