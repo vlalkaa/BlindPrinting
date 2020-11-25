@@ -15,29 +15,38 @@ public class text : MonoBehaviour
     public Text textInform;
     public Text textStatistics;
     public Text textButton;
+    //public Button stsrtButton;
+    private bool pressStartButton;
+    //private bool pressHomeButton;
     private string str;
     private char ch;
     private int lengthStr;
     private Stopwatch stopWatch = new Stopwatch();
     private int[] numButton = new int [104];
     private int oneEnter = 1;
+    private bool firstLogin = true;
 
     void Start()
     {
-        str = textRand();
-        string space = "  ";
+        pressStartButton = false;
+        //pressHomeButton = false;
 
-        lengthStr = str.Length;
-        
+        /*
+         string space = "  ";
+
         textMain.text = space;
-
+         pressStartButton = false;
+        str = textRand();
+                
+        lengthStr = str.Length;
+                
         for (int i = 0; i < 19; i++)
         {
             if (i == str.Length)
                 break;
             textMain.text = textMain.text + str[i];
-        }
-
+        }*/
+        
         for (int i = 0; i < 104; i++)
         {
             numButton[i] = 0;
@@ -87,13 +96,25 @@ public class text : MonoBehaviour
         string filename = " ";
         Random rnd = new Random();
         int tempRand = rnd.Next(3);
-        if (tempRand == 0)
-            filename = "Text1.txt";
-        else if (tempRand == 1)
-            filename = "Text2.txt";
-        else if (tempRand == 2)
-            filename = "Text3.txt";
-        
+        if (textButton.text == "Язык ru")
+        {
+            if (tempRand == 0)
+                filename = "Text1.txt";
+            else if (tempRand == 1)
+                filename = "Text2.txt";
+            else if (tempRand == 2)
+                filename = "Text3.txt";
+        }
+        else if (textButton.text == "Язык eng")
+        {
+            if (tempRand == 0)
+                filename = "Text4.txt";
+            else if (tempRand == 1)
+                filename = "Text5.txt";
+            else if (tempRand == 2)
+                filename = "Text6.txt";
+        }
+            
         byte[] bytes;
         bytes = System.IO.File.ReadAllBytes(filename);
         
@@ -1370,182 +1391,83 @@ public class text : MonoBehaviour
             long seconds = stopWatch.ElapsedMilliseconds/1000;
             long tempF = 60 * lengthStr / seconds;
             textInform.text = tempF.ToString() + " зн/m";
-            //Debug.Log(60 * lengthStr / seconds);
         }
     }
-    
-    
-    
+
+    public void PressStartButton()
+    {
+        pressStartButton = true;
+        
+    }
+
+    public void PressHomeButton()
+    {
+        //pressHomeButton = true;
+        pressStartButton = false;
+        firstLogin = true;
+    }
+
     // Update is calle once per frame
     void Update()
     {
-        if (textButton.text == "Язык ru" || textButton.text == "Язык en")
+        if (pressStartButton)
         {
-            pressingKeyboard();
-            charactedInMinutes();
-
-            if(str.Length == 0)  //Сработывает только один раз
+            if (firstLogin)
             {
+                string space = "  ";
+                textMain.text = space;
                 
-                if(oneEnter == 1)
+                str = textRand();
+                
+                lengthStr = str.Length;
+                
+                for (int i = 0; i < 19; i++)
                 {
-                    int[] EnterBut = new int[104];
-                    for (int i = 0; i < 104; i++)
-                    {
-                        if (numButton[i] != 0)
-                        {
-                            char tempChar = ' ';
-                            switch (i)
-                            {
-                                case 0:
-                                    tempChar = ',';
-                                    break;
-                                case 1:
-                                    tempChar = 'А';
-                                    break;
-                                case 2:
-                                    tempChar = 'Б';
-                                    break;
-                                case 3:
-                                    tempChar = 'В';
-                                    break;
-                                case 4:
-                                    tempChar = 'Г';
-                                    break;
-                                case 5:
-                                    tempChar = 'Д';
-                                    break;
-                                case 6:
-                                    tempChar = 'Е';
-                                    break;
-                                case 7:
-                                    tempChar = 'Ё';
-                                    break;
-                                case 8:
-                                    tempChar = 'Ж';
-                                    break;
-                                case 9:
-                                    tempChar = 'З';
-                                    break;
-                                case 10:
-                                    tempChar = 'И';
-                                    break;
-                                case 11:
-                                    tempChar = 'Й';
-                                    break;
-                                case 12:
-                                    tempChar = 'К';
-                                    break;
-                                case 13:
-                                    tempChar = 'Л';
-                                    break;
-                                case 14:
-                                    tempChar = 'М';
-                                    break;
-                                case 15:
-                                    tempChar = 'Н';
-                                    break;
-                                case 16:
-                                    tempChar = 'О';
-                                    break;
-                                case 17:
-                                    tempChar = 'П';
-                                    break;
-                                case 18:
-                                    tempChar = 'Р';
-                                    break;
-                                case 19:
-                                    tempChar = 'С';
-                                    break;
-                                case 20:
-                                    tempChar = 'Т';
-                                    break;
-                                case 21:
-                                    tempChar = 'У';
-                                    break;
-                                case 22:
-                                    tempChar = 'Ф';
-                                    break;
-                                case 23:
-                                    tempChar = 'Х';
-                                    break;
-                                case 24:
-                                    tempChar = 'Ц';
-                                    break;
-                                case 25:
-                                    tempChar = 'Ч';
-                                    break;
-                                case 26:
-                                    tempChar = 'Ш';
-                                    break;
-                                case 27:
-                                    tempChar = 'Щ';
-                                    break;
-                                case 28:
-                                    tempChar = 'Ъ';
-                                    break;
-                                case 29:
-                                    tempChar = 'Ы';
-                                    break;
-                                case 30:
-                                    tempChar = 'Ь';
-                                    break;
-                                case 31:
-                                    tempChar = 'Э';
-                                    break;
-                                case 32:
-                                    tempChar = 'Ю';
-                                    break;
-                                case 33:
-                                    tempChar = 'Я';
-                                    break;
-                                case 34:
-                                    tempChar = '!';
-                                    break;
-                                case 35:
-                                    tempChar = '"';
-                                    break;
-                                case 36:
-                                    tempChar = ';';
-                                    break;
-                                case 37:
-                                    tempChar = ':';
-                                    break;
-                                case 38:
-                                    tempChar = '?';
-                                    break;
-                                case 39:
-                                    tempChar = '*';
-                                    break;
-                                case 40:
-                                    tempChar = '(';
-                                    break;
-                                case 41:
-                                    tempChar = ')';
-                                    break;
-                                case 42:
-                                    tempChar = ' ';
-                                    break;
-                                case 43:
-                                    tempChar = '.';
-                                    break;
-                                case 44:
-                                    tempChar = '↵';
-                                    break;
-                                case 45:
-                                    tempChar = '-';
-                                    break;
-                            }
-                            textStatistics.text = textStatistics.text + " " + tempChar + " = " + numButton[i] + "\n";
-                        }    
-                    }
+                    if (i == str.Length)
+                        break;
+                    textMain.text = textMain.text + str[i];
                 }
 
-                oneEnter--;
+                firstLogin = false;
             }
-        
+            
+            if (textButton.text == "Язык ru")
+            {
+               pressingKeyboard();
+               charactedInMinutes();
+   
+               if(str.Length == 0)  //Сработывает только один раз
+               {
+                   
+                   if(oneEnter == 1)
+                   {
+                       enterInform();
+                   }
+                   oneEnter--;
+               }
+            }
+            else if (textButton.text == "Язык eng")
+            {
+               pressingKeyboardEng();
+               charactedInMinutes();
+               
+               if(str.Length == 0)  //Сработывает только один раз
+               {
+                   
+                   if(oneEnter == 1)
+                   {
+                       enterInformEng();
+                   }
+                   oneEnter--;
+               }
+            } 
         }
-       // else if (textButton.text == "Язык en")
+        else
+        {
+            string space = "  ";
+            textMain.text = space;
+        }
+        
     }
     
 
@@ -1657,6 +1579,162 @@ public class text : MonoBehaviour
             case 'Я':
                 tempInt = 33;
                 break;
+            case 'A':
+                tempInt = 1;
+                break;
+            case 'B':
+                tempInt = 2;
+                break;
+            case 'C':
+                tempInt = 3;
+                break;
+            case 'D':
+                tempInt = 4;
+                break;
+            case 'E':
+                tempInt = 5;
+                break;
+            case 'F':
+                tempInt = 6;
+                break;
+            case 'G':
+                tempInt = 7;
+                break;
+            case 'H':
+                tempInt = 8;
+                break;
+            case 'I':
+                tempInt = 9;
+                break;
+            case 'J':
+                tempInt = 10;
+                break;
+            case 'K':
+                tempInt = 11;
+                break;
+            case 'L':
+                tempInt = 12;
+                break;
+            case 'M':
+                tempInt = 13;
+                break;
+            case 'N':
+                tempInt = 14;
+                break;
+            case 'O':
+                tempInt = 15;
+                break;
+            case 'P':
+                tempInt = 16;
+                break;
+            case 'Q':
+                tempInt = 17;
+                break;
+            case 'R':
+                tempInt = 18;
+                break;
+            case 'S':
+                tempInt = 19;
+                break;
+            case 'T':
+                tempInt = 20;
+                break;
+            case 'U':
+                tempInt = 21;
+                break;
+            case 'V':
+                tempInt = 22;
+                break;
+            case 'W':
+                tempInt = 23;
+                break;
+            case 'X':
+                tempInt = 24;
+                break;
+            case 'Y':
+                tempInt = 25;
+                break;
+            case 'Z':
+                tempInt = 26;
+                break;
+          case 'a':
+              tempInt = 1;
+              break;
+          case 'b':
+              tempInt = 2;
+              break;
+          case 'c':
+              tempInt = 3;
+              break;
+          case 'd':
+              tempInt = 4;
+              break;
+          case 'e':
+              tempInt = 5;
+              break;
+          case 'f':
+              tempInt = 6;
+              break;
+          case 'g':
+              tempInt = 7;
+              break;
+          case 'h':
+              tempInt = 8;
+              break;
+          case 'i':
+              tempInt = 9;
+              break;
+          case 'j':
+              tempInt = 10;
+              break;
+          case 'k':
+              tempInt = 11;
+              break;
+          case 'l':
+              tempInt = 12;
+              break;
+          case 'm':
+              tempInt = 13;
+              break;
+          case 'n':
+              tempInt = 14;
+              break;
+          case 'o':
+              tempInt = 15;
+              break;
+          case 'p':
+              tempInt = 16;
+              break;
+          case 'q':
+              tempInt = 17;
+              break;
+          case 'r':
+              tempInt = 18;
+              break;
+          case 's':
+              tempInt = 19;
+              break;
+          case 't':
+              tempInt = 20;
+              break;
+          case 'u':
+              tempInt = 21;
+              break;
+          case 'v':
+              tempInt = 22;
+              break;
+          case 'w':
+              tempInt = 23;
+              break;
+          case 'x':
+              tempInt = 24;
+              break;
+          case 'y':
+              tempInt = 25;
+              break;
+          case 'z':
+              tempInt = 26;
+              break;
             case 'а':
                 tempInt = 1;
                 break;
@@ -1830,5 +1908,292 @@ public class text : MonoBehaviour
               break;
         }
         return tempInt;
+    }
+
+    void enterInform()
+    {
+        int[] EnterBut = new int[104];
+        for (int i = 0; i < 104; i++)
+        {
+            if (numButton[i] != 0)
+            {
+                char tempChar = ' ';
+                switch (i)
+                {
+                    case 0:
+                        tempChar = ',';
+                        break;
+                    case 1:
+                        tempChar = 'А';
+                        break;
+                    case 2:
+                        tempChar = 'Б';
+                        break;
+                    case 3:
+                        tempChar = 'В';
+                        break;
+                    case 4:
+                        tempChar = 'Г';
+                        break;
+                    case 5:
+                        tempChar = 'Д';
+                        break;
+                    case 6:
+                        tempChar = 'Е';
+                        break;
+                    case 7:
+                        tempChar = 'Ё';
+                        break;
+                    case 8:
+                        tempChar = 'Ж';
+                        break;
+                    case 9:
+                        tempChar = 'З';
+                        break;
+                    case 10:
+                        tempChar = 'И';
+                        break;
+                    case 11:
+                        tempChar = 'Й';
+                        break;
+                    case 12:
+                        tempChar = 'К';
+                        break;
+                    case 13:
+                        tempChar = 'Л';
+                        break;
+                    case 14:
+                        tempChar = 'М';
+                        break;
+                    case 15:
+                        tempChar = 'Н';
+                        break;
+                    case 16:
+                        tempChar = 'О';
+                        break;
+                    case 17:
+                        tempChar = 'П';
+                        break;
+                    case 18:
+                        tempChar = 'Р';
+                        break;
+                    case 19:
+                        tempChar = 'С';
+                        break;
+                    case 20:
+                        tempChar = 'Т';
+                        break;
+                    case 21:
+                        tempChar = 'У';
+                        break;
+                    case 22:
+                        tempChar = 'Ф';
+                        break;
+                    case 23:
+                        tempChar = 'Х';
+                        break;
+                    case 24:
+                        tempChar = 'Ц';
+                        break;
+                    case 25:
+                        tempChar = 'Ч';
+                        break;
+                    case 26:
+                        tempChar = 'Ш';
+                        break;
+                    case 27:
+                        tempChar = 'Щ';
+                        break;
+                    case 28:
+                        tempChar = 'Ъ';
+                        break;
+                    case 29:
+                        tempChar = 'Ы';
+                        break;
+                    case 30:
+                        tempChar = 'Ь';
+                        break;
+                    case 31:
+                        tempChar = 'Э';
+                        break;
+                    case 32:
+                        tempChar = 'Ю';
+                        break;
+                    case 33:
+                        tempChar = 'Я';
+                        break;
+                    case 34:
+                        tempChar = '!';
+                        break;
+                    case 35:
+                        tempChar = '"';
+                        break;
+                    case 36:
+                        tempChar = ';';
+                        break;
+                    case 37:
+                        tempChar = ':';
+                        break;
+                    case 38:
+                        tempChar = '?';
+                        break;
+                    case 39:
+                        tempChar = '*';
+                        break;
+                    case 40:
+                        tempChar = '(';
+                        break;
+                    case 41:
+                        tempChar = ')';
+                        break;
+                    case 42:
+                        tempChar = ' ';
+                        break;
+                    case 43:
+                        tempChar = '.';
+                        break;
+                    case 44:
+                        tempChar = '↵';
+                        break;
+                    case 45:
+                        tempChar = '-';
+                        break;
+                }
+                textStatistics.text = textStatistics.text + " " + tempChar + " = " + numButton[i] + "\n";
+            }    
+        }
+    }
+    
+    void enterInformEng()
+    {
+        int[] EnterBut = new int[104];
+        for (int i = 0; i < 104; i++)
+        {
+            if (numButton[i] != 0)
+            {
+                char tempChar = ' ';
+                switch (i)
+                {
+                    case 0:
+                        tempChar = ',';
+                        break;
+                    case 1:
+                        tempChar = 'A';
+                        break;
+                    case 2:
+                        tempChar = 'B';
+                        break;
+                    case 3:
+                        tempChar = 'C';
+                        break;
+                    case 4:
+                        tempChar = 'D';
+                        break;
+                    case 5:
+                        tempChar = 'E';
+                        break;
+                    case 6:
+                        tempChar = 'F';
+                        break;
+                    case 7:
+                        tempChar = 'G';
+                        break;
+                    case 8:
+                        tempChar = 'H';
+                        break;
+                    case 9:
+                        tempChar = 'I';
+                        break;
+                    case 10:
+                        tempChar = 'J';
+                        break;
+                    case 11:
+                        tempChar = 'K';
+                        break;
+                    case 12:
+                        tempChar = 'L';
+                        break;
+                    case 13:
+                        tempChar = 'M';
+                        break;
+                    case 14:
+                        tempChar = 'N';
+                        break;
+                    case 15:
+                        tempChar = 'O';
+                        break;
+                    case 16:
+                        tempChar = 'P';
+                        break;
+                    case 17:
+                        tempChar = 'Q';
+                        break;
+                    case 18:
+                        tempChar = 'R';
+                        break;
+                    case 19:
+                        tempChar = 'S';
+                        break;
+                    case 20:
+                        tempChar = 'T';
+                        break;
+                    case 21:
+                        tempChar = 'U';
+                        break;
+                    case 22:
+                        tempChar = 'V';
+                        break;
+                    case 23:
+                        tempChar = 'W';
+                        break;
+                    case 24:
+                        tempChar = 'X';
+                        break;
+                    case 25:
+                        tempChar = 'Y';
+                        break;
+                    case 26:
+                        tempChar = 'Z';
+                        break;
+                    case 34:
+                        tempChar = '!';
+                        break;
+                    case 35:
+                        tempChar = '"';
+                        break;
+                    case 36:
+                        tempChar = ';';
+                        break;
+                    case 37:
+                        tempChar = ':';
+                        break;
+                    case 38:
+                        tempChar = '?';
+                        break;
+                    case 39:
+                        tempChar = '*';
+                        break;
+                    case 40:
+                        tempChar = '(';
+                        break;
+                    case 41:
+                        tempChar = ')';
+                        break;
+                    case 42:
+                        tempChar = ' ';
+                        break;
+                    case 43:
+                        tempChar = '.';
+                        break;
+                    case 44:
+                        tempChar = '↵';
+                        break;
+                    case 45:
+                        tempChar = '-';
+                        break;
+                }
+                textStatistics.text = textStatistics.text + " " + tempChar + " = " + numButton[i] + "\n";
+            }    
+        }
     }
 }

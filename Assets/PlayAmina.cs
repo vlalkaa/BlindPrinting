@@ -29,6 +29,16 @@ public class PlayAmina : MonoBehaviour
     {
         GetComponent<Animation>().Play("backToMenu");
     }
+    
+    public void Statistic()
+    {
+        GetComponent<Animation>().Play("statistic");
+    }
+    
+    public void BackToText()
+    {
+        GetComponent<Animation>().Play("backToText");
+    }
 
     public void ExitPressed()
     {

@@ -4,12 +4,9 @@
     <e p="C:\progUnity\New Unity Project (12)" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="backSpace.cs" t="Include" />
-        <e p="C8.cs" t="Include" />
-        <e p="C9.cs" t="Include" />
-        <e p="caps.cs" t="Include" />
         <e p="ClickAnimationScripts" t="Include">
           <e p="new" t="Include">
+            <e p="backSpace.cs" t="Include" />
             <e p="c1.cs" t="Include" />
             <e p="C2.cs" t="Include" />
             <e p="C3.cs" t="Include" />
@@ -17,6 +14,56 @@
             <e p="C5.cs" t="Include" />
             <e p="C6.cs" t="Include" />
             <e p="C7.cs" t="Include" />
+            <e p="C8.cs" t="Include" />
+            <e p="C9.cs" t="Include" />
+            <e p="caps.cs" t="Include" />
+            <e p="enter.cs" t="Include" />
+            <e p="l_alt.cs" t="Include" />
+            <e p="l_ctrl.cs" t="Include" />
+            <e p="l_shift.cs" t="Include" />
+            <e p="o.cs" t="Include" />
+            <e p="r_alt.cs" t="Include" />
+            <e p="r_ctrl.cs" t="Include" />
+            <e p="r_shift.cs" t="Include" />
+            <e p="space.cs" t="Include" />
+            <e p="tab.cs" t="Include" />
+            <e p="а.cs" t="Include" />
+            <e p="б.cs" t="Include" />
+            <e p="в.cs" t="Include" />
+            <e p="г.cs" t="Include" />
+            <e p="д.cs" t="Include" />
+            <e p="е.cs" t="Include" />
+            <e p="ж.cs" t="Include" />
+            <e p="з.cs" t="Include" />
+            <e p="и.cs" t="Include" />
+            <e p="й.cs" t="Include" />
+            <e p="к.cs" t="Include" />
+            <e p="л.cs" t="Include" />
+            <e p="м.cs" t="Include" />
+            <e p="н.cs" t="Include" />
+            <e p="о.cs" t="Include" />
+            <e p="п.cs" t="Include" />
+            <e p="палка.cs" t="Include" />
+            <e p="плюс.cs" t="Include" />
+            <e p="р.cs" t="Include" />
+            <e p="с.cs" t="Include" />
+            <e p="т.cs" t="Include" />
+            <e p="тире.cs" t="Include" />
+            <e p="точка.cs" t="Include" />
+            <e p="у.cs" t="Include" />
+            <e p="ф.cs" t="Include" />
+            <e p="х.cs" t="Include" />
+            <e p="ц.cs" t="Include" />
+            <e p="ч.cs" t="Include" />
+            <e p="ш.cs" t="Include" />
+            <e p="щ.cs" t="Include" />
+            <e p="ъ.cs" t="Include" />
+            <e p="ы.cs" t="Include" />
+            <e p="ь.cs" t="Include" />
+            <e p="э.cs" t="Include" />
+            <e p="ю.cs" t="Include" />
+            <e p="я.cs" t="Include" />
+            <e p="ё.cs" t="Include" />
           </e>
           <e p="old" t="Include">
             <e p="_.cs" t="Include" />
@@ -103,56 +150,9 @@
             <e p="z1.cs" t="Include" />
           </e>
         </e>
-        <e p="enter.cs" t="Include" />
-        <e p="l_alt.cs" t="Include" />
-        <e p="l_ctrl.cs" t="Include" />
-        <e p="l_shift.cs" t="Include" />
-        <e p="o.cs" t="Include" />
         <e p="PlayAmina.cs" t="Include" />
-        <e p="r_alt.cs" t="Include" />
-        <e p="r_ctrl.cs" t="Include" />
-        <e p="r_shift.cs" t="Include" />
         <e p="settings.cs" t="Include" />
-        <e p="space.cs" t="Include" />
-        <e p="tab.cs" t="Include" />
         <e p="Text.cs" t="Include" />
-        <e p="а.cs" t="Include" />
-        <e p="б.cs" t="Include" />
-        <e p="в.cs" t="Include" />
-        <e p="г.cs" t="Include" />
-        <e p="д.cs" t="Include" />
-        <e p="е.cs" t="Include" />
-        <e p="ж.cs" t="Include" />
-        <e p="з.cs" t="Include" />
-        <e p="и.cs" t="Include" />
-        <e p="й.cs" t="Include" />
-        <e p="к.cs" t="Include" />
-        <e p="л.cs" t="Include" />
-        <e p="м.cs" t="Include" />
-        <e p="н.cs" t="Include" />
-        <e p="о.cs" t="Include" />
-        <e p="п.cs" t="Include" />
-        <e p="палка.cs" t="Include" />
-        <e p="плюс.cs" t="Include" />
-        <e p="р.cs" t="Include" />
-        <e p="с.cs" t="Include" />
-        <e p="т.cs" t="Include" />
-        <e p="тире.cs" t="Include" />
-        <e p="точка.cs" t="Include" />
-        <e p="у.cs" t="Include" />
-        <e p="ф.cs" t="Include" />
-        <e p="х.cs" t="Include" />
-        <e p="ц.cs" t="Include" />
-        <e p="ч.cs" t="Include" />
-        <e p="ш.cs" t="Include" />
-        <e p="щ.cs" t="Include" />
-        <e p="ъ.cs" t="Include" />
-        <e p="ы.cs" t="Include" />
-        <e p="ь.cs" t="Include" />
-        <e p="э.cs" t="Include" />
-        <e p="ю.cs" t="Include" />
-        <e p="я.cs" t="Include" />
-        <e p="ё.cs" t="Include" />
       </e>
       <e p="New Unity Project (12).sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
