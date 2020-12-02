@@ -16,26 +16,27 @@ public class text : MonoBehaviour
     public Text textStatistics;
     public Text textButton;
     //public Button stsrtButton;
-    private bool pressStartButton;
+    private bool pressStartButton = false;
     //private bool pressHomeButton;
     private string str;
     private char ch;
     private int lengthStr;
     private Stopwatch stopWatch = new Stopwatch();
     private int[] numButton = new int [104];
-    private int oneEnter = 1;
+    private int oneEnter;
     private bool firstLogin = true;
-
+    
     void Start()
     {
-        pressStartButton = false;
         //pressHomeButton = false;
 
-        /*
+        oneEnter = 1;
          string space = "  ";
-
         textMain.text = space;
-         pressStartButton = false;
+        textStatistics.text = space;
+        textInform.text = space;
+         //pressStartButton = false;
+         
         str = textRand();
                 
         lengthStr = str.Length;
@@ -45,7 +46,10 @@ public class text : MonoBehaviour
             if (i == str.Length)
                 break;
             textMain.text = textMain.text + str[i];
-        }*/
+            
+        }
+        if (pressStartButton)
+            firstLogin = false;
         
         for (int i = 0; i < 104; i++)
         {
@@ -77,12 +81,23 @@ public class text : MonoBehaviour
             {
                 numButton[NumChar(str[0])]++;
                 textMain.text = $"  <color=red>{'|'}</color>" + $"<color=red>{tempch}</color>";
+                
                 for (int i = 1; i < 18; i++)
                 {
                     if (i == str.Length)
                         break;
                     textMain.text = textMain.text + str[i];
                 }
+                
+                /*if (textMain.text[1] == '←')
+                {
+                    while (true)
+                    { 
+                        if (Input.GetKey(KeyCode.Backspace))
+                            break;
+                    }
+                }*/
+                
             }
         }
         else if (str.Length == 0)
@@ -95,7 +110,7 @@ public class text : MonoBehaviour
     {
         string filename = " ";
         Random rnd = new Random();
-        int tempRand = rnd.Next(3);
+        int tempRand = rnd.Next(4);
         if (textButton.text == "Язык ru")
         {
             if (tempRand == 0)
@@ -104,6 +119,8 @@ public class text : MonoBehaviour
                 filename = "Text2.txt";
             else if (tempRand == 2)
                 filename = "Text3.txt";
+            else if (tempRand == 3)
+                filename = "Text7.txt";
         }
         else if (textButton.text == "Язык eng")
         {
@@ -113,14 +130,27 @@ public class text : MonoBehaviour
                 filename = "Text5.txt";
             else if (tempRand == 2)
                 filename = "Text6.txt";
+            else if (tempRand == 3)
+                filename = "Text8.txt";
         }
-            
+        
         byte[] bytes;
-        bytes = System.IO.File.ReadAllBytes(filename);
+        bytes = File.ReadAllBytes(filename);
         
         string tempstr = Encoding.UTF8.GetString(bytes);
         
-        return tempstr;
+        if (tempRand == 3)
+        {
+            Random strRand = new Random();
+            string tempstr2 = "";
+            for (int i = 0; i < 100; i++)
+            {
+                int strRandTemp = strRand.Next(52);
+                tempstr2 = tempstr2 + tempstr[strRandTemp];
+            }
+            return tempstr2;
+        }
+        else return tempstr;
     }
 
     void pressingKeyboard()
@@ -740,6 +770,48 @@ public class text : MonoBehaviour
             if (Input.GetKeyDown("4"))
             {
                 ch = '4';
+                check();
+            }
+            
+            //5
+            if (Input.GetKeyDown("5"))
+            {
+                ch = '5';
+                check();
+            }
+            
+            //6
+            if (Input.GetKeyDown("6"))
+            {
+                ch = '6';
+                check();
+            }
+            
+            //7
+            if (Input.GetKeyDown("7"))
+            {
+                ch = '7';
+                check();
+            }
+            
+            //8
+            if (Input.GetKeyDown("8"))
+            {
+                ch = '8';
+                check();
+            }
+            
+            //9
+            if (Input.GetKeyDown("9"))
+            {
+                ch = '9';
+                check();
+            }
+            
+            //0
+            if (Input.GetKeyDown("0"))
+            {
+                ch = '0';
                 check();
             }
             
@@ -1372,6 +1444,48 @@ public class text : MonoBehaviour
                 check();
             }
             
+            //5
+            if (Input.GetKeyDown("5"))
+            {
+                ch = '5';
+                check();
+            }
+            
+            //6
+            if (Input.GetKeyDown("6"))
+            {
+                ch = '6';
+                check();
+            }
+            
+            //7
+            if (Input.GetKeyDown("7"))
+            {
+                ch = '7';
+                check();
+            }
+            
+            //8
+            if (Input.GetKeyDown("8"))
+            {
+                ch = '8';
+                check();
+            }
+            
+            //9
+            if (Input.GetKeyDown("9"))
+            {
+                ch = '9';
+                check();
+            }
+            
+            //0
+            if (Input.GetKeyDown("0"))
+            {
+                ch = '0';
+                check();
+            }
+            
             //тире
             if (Input.GetKeyDown("-"))
             {
@@ -1383,8 +1497,10 @@ public class text : MonoBehaviour
     
     void charactedInMinutes()
     {
+        //stopWatch.Reset();
+
         if (str.Length == lengthStr - 1)
-            stopWatch.Start();
+            stopWatch.Restart();
         if (str.Length == 0)
         {
             stopWatch.Stop();
@@ -1392,12 +1508,12 @@ public class text : MonoBehaviour
             long tempF = 60 * lengthStr / seconds;
             textInform.text = tempF.ToString() + " зн/m";
         }
+        
     }
 
     public void PressStartButton()
     {
         pressStartButton = true;
-        
     }
 
     public void PressHomeButton()
@@ -1413,8 +1529,9 @@ public class text : MonoBehaviour
         if (pressStartButton)
         {
             if (firstLogin)
-            {
-                string space = "  ";
+            { 
+                Start();
+                /*string space = "  ";
                 textMain.text = space;
                 
                 str = textRand();
@@ -1428,7 +1545,7 @@ public class text : MonoBehaviour
                     textMain.text = textMain.text + str[i];
                 }
 
-                firstLogin = false;
+                firstLogin = false;*/
             }
             
             if (textButton.text == "Язык ru")
@@ -1438,7 +1555,6 @@ public class text : MonoBehaviour
    
                if(str.Length == 0)  //Сработывает только один раз
                {
-                   
                    if(oneEnter == 1)
                    {
                        enterInform();

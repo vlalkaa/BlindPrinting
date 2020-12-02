@@ -2,155 +2,319 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\progUnity\New Unity Project (12)" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ClickAnimationScripts" t="Include">
           <e p="new" t="Include">
-            <e p="backSpace.cs" t="Include" />
-            <e p="c1.cs" t="Include" />
-            <e p="C2.cs" t="Include" />
-            <e p="C3.cs" t="Include" />
-            <e p="C4.cs" t="Include" />
-            <e p="C5.cs" t="Include" />
-            <e p="C6.cs" t="Include" />
-            <e p="C7.cs" t="Include" />
-            <e p="C8.cs" t="Include" />
-            <e p="C9.cs" t="Include" />
-            <e p="caps.cs" t="Include" />
-            <e p="enter.cs" t="Include" />
-            <e p="l_alt.cs" t="Include" />
-            <e p="l_ctrl.cs" t="Include" />
-            <e p="l_shift.cs" t="Include" />
-            <e p="o.cs" t="Include" />
-            <e p="r_alt.cs" t="Include" />
-            <e p="r_ctrl.cs" t="Include" />
-            <e p="r_shift.cs" t="Include" />
-            <e p="space.cs" t="Include" />
-            <e p="tab.cs" t="Include" />
-            <e p="а.cs" t="Include" />
-            <e p="б.cs" t="Include" />
-            <e p="в.cs" t="Include" />
-            <e p="г.cs" t="Include" />
-            <e p="д.cs" t="Include" />
-            <e p="е.cs" t="Include" />
-            <e p="ж.cs" t="Include" />
-            <e p="з.cs" t="Include" />
-            <e p="и.cs" t="Include" />
-            <e p="й.cs" t="Include" />
-            <e p="к.cs" t="Include" />
-            <e p="л.cs" t="Include" />
-            <e p="м.cs" t="Include" />
-            <e p="н.cs" t="Include" />
-            <e p="о.cs" t="Include" />
-            <e p="п.cs" t="Include" />
-            <e p="палка.cs" t="Include" />
-            <e p="плюс.cs" t="Include" />
-            <e p="р.cs" t="Include" />
-            <e p="с.cs" t="Include" />
-            <e p="т.cs" t="Include" />
-            <e p="тире.cs" t="Include" />
-            <e p="точка.cs" t="Include" />
-            <e p="у.cs" t="Include" />
-            <e p="ф.cs" t="Include" />
-            <e p="х.cs" t="Include" />
-            <e p="ц.cs" t="Include" />
-            <e p="ч.cs" t="Include" />
-            <e p="ш.cs" t="Include" />
-            <e p="щ.cs" t="Include" />
-            <e p="ъ.cs" t="Include" />
-            <e p="ы.cs" t="Include" />
-            <e p="ь.cs" t="Include" />
-            <e p="э.cs" t="Include" />
-            <e p="ю.cs" t="Include" />
-            <e p="я.cs" t="Include" />
-            <e p="ё.cs" t="Include" />
-          </e>
-          <e p="old" t="Include">
-            <e p="_.cs" t="Include" />
-            <e p="_1.cs" t="Include" />
-            <e p="a.cs" t="Include" />
-            <e p="a1.cs" t="Include" />
-            <e p="b.cs" t="Include" />
-            <e p="b1.cs" t="Include" />
-            <e p="backSpace.cs" t="Include" />
-            <e p="backSpace1.cs" t="Include" />
-            <e p="c.cs" t="Include" />
-            <e p="c1.cs" t="Include" />
-            <e p="caps.cs" t="Include" />
-            <e p="caps1.cs" t="Include" />
-            <e p="ch.cs" t="Include" />
-            <e p="ch1.cs" t="Include" />
-            <e p="ci.cs" t="Include" />
-            <e p="ci1.cs" t="Include" />
-            <e p="ctrl.cs" t="Include" />
-            <e p="ctrl1.cs" t="Include" />
-            <e p="ctrl_2.cs" t="Include" />
-            <e p="ctrl_21.cs" t="Include" />
-            <e p="d.cs" t="Include" />
-            <e p="d1.cs" t="Include" />
-            <e p="e.cs" t="Include" />
-            <e p="e1.cs" t="Include" />
-            <e p="ea.cs" t="Include" />
-            <e p="ea1.cs" t="Include" />
-            <e p="enter.cs" t="Include" />
-            <e p="enter1.cs" t="Include" />
-            <e p="f.cs" t="Include" />
-            <e p="f1.cs" t="Include" />
-            <e p="g.cs" t="Include" />
-            <e p="g1.cs" t="Include" />
-            <e p="h.cs" t="Include" />
-            <e p="h1.cs" t="Include" />
-            <e p="i.cs" t="Include" />
-            <e p="i1.cs" t="Include" />
-            <e p="ii.cs" t="Include" />
-            <e p="ii1.cs" t="Include" />
-            <e p="j.cs" t="Include" />
-            <e p="j1.cs" t="Include" />
-            <e p="k.cs" t="Include" />
-            <e p="k1.cs" t="Include" />
-            <e p="l.cs" t="Include" />
-            <e p="l1.cs" t="Include" />
-            <e p="m.cs" t="Include" />
-            <e p="m1.cs" t="Include" />
-            <e p="mz.cs" t="Include" />
-            <e p="mz1.cs" t="Include" />
-            <e p="n.cs" t="Include" />
-            <e p="n1.cs" t="Include" />
-            <e p="o.cs" t="Include" />
-            <e p="o1.cs" t="Include" />
-            <e p="p.cs" t="Include" />
-            <e p="p1.cs" t="Include" />
-            <e p="r.cs" t="Include" />
-            <e p="r1.cs" t="Include" />
-            <e p="sh.cs" t="Include" />
-            <e p="sh1.cs" t="Include" />
-            <e p="shch.cs" t="Include" />
-            <e p="shch1.cs" t="Include" />
-            <e p="shift.cs" t="Include" />
-            <e p="shift1.cs" t="Include" />
-            <e p="shift_2.cs" t="Include" />
-            <e p="shift_21.cs" t="Include" />
-            <e p="space.cs" t="Include" />
-            <e p="space1.cs" t="Include" />
-            <e p="t.cs" t="Include" />
-            <e p="t1.cs" t="Include" />
-            <e p="tz.cs" t="Include" />
-            <e p="tz1.cs" t="Include" />
-            <e p="u.cs" t="Include" />
-            <e p="u1.cs" t="Include" />
-            <e p="uy.cs" t="Include" />
-            <e p="uy1.cs" t="Include" />
-            <e p="v.cs" t="Include" />
-            <e p="v1.cs" t="Include" />
-            <e p="ya.cs" t="Include" />
-            <e p="ya1.cs" t="Include" />
-            <e p="yu.cs" t="Include" />
-            <e p="yu1.cs" t="Include" />
-            <e p="z.cs" t="Include" />
-            <e p="z1.cs" t="Include" />
+            <e p="OneTopicScripts" t="Include">
+              <e p="backSpace.cs" t="Include" />
+              <e p="c1.cs" t="Include" />
+              <e p="C2.cs" t="Include" />
+              <e p="C3.cs" t="Include" />
+              <e p="C4.cs" t="Include" />
+              <e p="C5.cs" t="Include" />
+              <e p="C6.cs" t="Include" />
+              <e p="C7.cs" t="Include" />
+              <e p="C8.cs" t="Include" />
+              <e p="C9.cs" t="Include" />
+              <e p="caps.cs" t="Include" />
+              <e p="enter.cs" t="Include" />
+              <e p="l_alt.cs" t="Include" />
+              <e p="l_ctrl.cs" t="Include" />
+              <e p="l_shift.cs" t="Include" />
+              <e p="o.cs" t="Include" />
+              <e p="r_alt.cs" t="Include" />
+              <e p="r_ctrl.cs" t="Include" />
+              <e p="r_shift.cs" t="Include" />
+              <e p="space.cs" t="Include" />
+              <e p="tab.cs" t="Include" />
+              <e p="а.cs" t="Include" />
+              <e p="б.cs" t="Include" />
+              <e p="в.cs" t="Include" />
+              <e p="г.cs" t="Include" />
+              <e p="д.cs" t="Include" />
+              <e p="е.cs" t="Include" />
+              <e p="ж.cs" t="Include" />
+              <e p="з.cs" t="Include" />
+              <e p="и.cs" t="Include" />
+              <e p="й.cs" t="Include" />
+              <e p="к.cs" t="Include" />
+              <e p="л.cs" t="Include" />
+              <e p="м.cs" t="Include" />
+              <e p="н.cs" t="Include" />
+              <e p="о.cs" t="Include" />
+              <e p="п.cs" t="Include" />
+              <e p="палка.cs" t="Include" />
+              <e p="плюс.cs" t="Include" />
+              <e p="р.cs" t="Include" />
+              <e p="с.cs" t="Include" />
+              <e p="т.cs" t="Include" />
+              <e p="тире.cs" t="Include" />
+              <e p="точка.cs" t="Include" />
+              <e p="у.cs" t="Include" />
+              <e p="ф.cs" t="Include" />
+              <e p="х.cs" t="Include" />
+              <e p="ц.cs" t="Include" />
+              <e p="ч.cs" t="Include" />
+              <e p="ш.cs" t="Include" />
+              <e p="щ.cs" t="Include" />
+              <e p="ъ.cs" t="Include" />
+              <e p="ы.cs" t="Include" />
+              <e p="ь.cs" t="Include" />
+              <e p="э.cs" t="Include" />
+              <e p="ю.cs" t="Include" />
+              <e p="я.cs" t="Include" />
+              <e p="ё.cs" t="Include" />
+            </e>
+            <e p="TwoTopicScripts" t="Include">
+              <e p="TwoBackspace.cs" t="Include" />
+              <e p="TwoC1.cs" t="Include" />
+              <e p="TwoC2.cs" t="Include" />
+              <e p="TwoC3.cs" t="Include" />
+              <e p="TwoC4.cs" t="Include" />
+              <e p="TwoC5.cs" t="Include" />
+              <e p="TwoC6.cs" t="Include" />
+              <e p="TwoC7.cs" t="Include" />
+              <e p="TwoC8.cs" t="Include" />
+              <e p="TwoC9.cs" t="Include" />
+              <e p="TwoCaps.cs" t="Include" />
+              <e p="TwoEnter.cs" t="Include" />
+              <e p="Twol_alt.cs" t="Include" />
+              <e p="Twol_ctrl.cs" t="Include" />
+              <e p="Twol_shift.cs" t="Include" />
+              <e p="TwoO.cs" t="Include" />
+              <e p="Twor_alt.cs" t="Include" />
+              <e p="Twor_ctrl.cs" t="Include" />
+              <e p="Twor_shift.cs" t="Include" />
+              <e p="TwoSpace.cs" t="Include" />
+              <e p="Twotab.cs" t="Include" />
+              <e p="Twoа.cs" t="Include" />
+              <e p="Twoб.cs" t="Include" />
+              <e p="Twoв.cs" t="Include" />
+              <e p="Twoг.cs" t="Include" />
+              <e p="Twoд.cs" t="Include" />
+              <e p="Twoе.cs" t="Include" />
+              <e p="Twoж.cs" t="Include" />
+              <e p="Twoз.cs" t="Include" />
+              <e p="Twoи.cs" t="Include" />
+              <e p="Twoй.cs" t="Include" />
+              <e p="Twoк.cs" t="Include" />
+              <e p="Twoл.cs" t="Include" />
+              <e p="Twoм.cs" t="Include" />
+              <e p="Twoн.cs" t="Include" />
+              <e p="Twoо.cs" t="Include" />
+              <e p="Twoп.cs" t="Include" />
+              <e p="Twoпалка.cs" t="Include" />
+              <e p="Twoплюс.cs" t="Include" />
+              <e p="Twoр.cs" t="Include" />
+              <e p="Twoс.cs" t="Include" />
+              <e p="Twoт.cs" t="Include" />
+              <e p="Twoтире.cs" t="Include" />
+              <e p="Twoточка.cs" t="Include" />
+              <e p="Twoу.cs" t="Include" />
+              <e p="Twoф.cs" t="Include" />
+              <e p="Twoх.cs" t="Include" />
+              <e p="Twoц.cs" t="Include" />
+              <e p="Twoч.cs" t="Include" />
+              <e p="Twoш.cs" t="Include" />
+              <e p="Twoщ.cs" t="Include" />
+              <e p="Twoъ.cs" t="Include" />
+              <e p="Twoы.cs" t="Include" />
+              <e p="Twoь.cs" t="Include" />
+              <e p="Twoэ.cs" t="Include" />
+              <e p="Twoю.cs" t="Include" />
+              <e p="Twoя.cs" t="Include" />
+              <e p="Twoё.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="PlayAmina.cs" t="Include" />
+        <e p="PostProcessingVolume" t="Include">
+          <e p="PostProcessing" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="PostProcessingModelEditorAttribute.cs" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="AmbientOcclusionModelEditor.cs" t="Include" />
+                <e p="AntialiasingModelEditor.cs" t="Include" />
+                <e p="BloomModelEditor.cs" t="Include" />
+                <e p="BuiltinDebugViewsEditor.cs" t="Include" />
+                <e p="ChromaticAberrationEditor.cs" t="Include" />
+                <e p="ColorGradingModelEditor.cs" t="Include" />
+                <e p="DefaultPostFxModelEditor.cs" t="Include" />
+                <e p="DepthOfFieldModelEditor.cs" t="Include" />
+                <e p="DitheringModelEditor.cs" t="Include" />
+                <e p="EyeAdaptationModelEditor.cs" t="Include" />
+                <e p="FogModelEditor.cs" t="Include" />
+                <e p="GrainModelEditor.cs" t="Include" />
+                <e p="MotionBlurModelEditor.cs" t="Include" />
+                <e p="ScreenSpaceReflectionModelEditor.cs" t="Include" />
+                <e p="UserLutModelEditor.cs" t="Include" />
+                <e p="VignetteModelEditor.cs" t="Include" />
+              </e>
+              <e p="Monitors" t="Include">
+                <e p="HistogramMonitor.cs" t="Include" />
+                <e p="ParadeMonitor.cs" t="Include" />
+                <e p="VectorscopeMonitor.cs" t="Include" />
+                <e p="WaveformMonitor.cs" t="Include" />
+              </e>
+              <e p="PostProcessingBehaviourEditor.cs" t="Include" />
+              <e p="PostProcessingFactory.cs" t="Include" />
+              <e p="PostProcessingInspector.cs" t="Include" />
+              <e p="PostProcessingModelEditor.cs" t="Include" />
+              <e p="PostProcessingMonitor.cs" t="Include" />
+              <e p="PropertyDrawers" t="Include">
+                <e p="GetSetDrawer.cs" t="Include" />
+                <e p="MinDrawer.cs" t="Include" />
+                <e p="TrackballGroupDrawer.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="CurveEditor.cs" t="Include" />
+                <e p="EditorGUIHelper.cs" t="Include" />
+                <e p="EditorResources.cs" t="Include" />
+                <e p="FxStyles.cs" t="Include" />
+                <e p="ReflectionUtils.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor Resources" t="Include">
+              <e p="Monitors" t="Include">
+                <e p="HistogramCompute.compute" t="Include" />
+                <e p="HistogramRender.shader" t="Include" />
+                <e p="ParadeRender.shader" t="Include" />
+                <e p="VectorscopeCompute.compute" t="Include" />
+                <e p="VectorscopeRender.shader" t="Include" />
+                <e p="WaveformCompute.compute" t="Include" />
+                <e p="WaveformRender.shader" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="CurveBackground.shader" t="Include" />
+                <e p="Trackball.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Resources" t="Include">
+              <e p="Bluenoise64" t="Include">
+                <e p="COPYING.txt" t="Include" />
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="ACES.cginc" t="Include" />
+                <e p="AmbientOcclusion.cginc" t="Include" />
+                <e p="AmbientOcclusion.shader" t="Include" />
+                <e p="Blit.shader" t="Include" />
+                <e p="Bloom.cginc" t="Include" />
+                <e p="Bloom.shader" t="Include" />
+                <e p="BuiltinDebugViews.shader" t="Include" />
+                <e p="ColorGrading.cginc" t="Include" />
+                <e p="Common.cginc" t="Include" />
+                <e p="DepthOfField.cginc" t="Include" />
+                <e p="DepthOfField.shader" t="Include" />
+                <e p="DiskKernels.cginc" t="Include" />
+                <e p="EyeAdaptation.cginc" t="Include" />
+                <e p="EyeAdaptation.shader" t="Include" />
+                <e p="EyeHistogram.compute" t="Include" />
+                <e p="Fog.shader" t="Include" />
+                <e p="FXAA.shader" t="Include" />
+                <e p="FXAA3.cginc" t="Include" />
+                <e p="GrainGen.shader" t="Include" />
+                <e p="LutGen.shader" t="Include" />
+                <e p="MotionBlur.cginc" t="Include" />
+                <e p="MotionBlur.shader" t="Include" />
+                <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+                <e p="ScreenSpaceReflection.shader" t="Include" />
+                <e p="TAA.cginc" t="Include" />
+                <e p="TAA.shader" t="Include" />
+                <e p="Tonemapping.cginc" t="Include" />
+                <e p="Uber.shader" t="Include" />
+                <e p="UberSecondPass.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="GetSetAttribute.cs" t="Include" />
+                <e p="MinAttribute.cs" t="Include" />
+                <e p="TrackballAttribute.cs" t="Include" />
+                <e p="TrackballGroupAttribute.cs" t="Include" />
+              </e>
+              <e p="Components" t="Include">
+                <e p="AmbientOcclusionComponent.cs" t="Include" />
+                <e p="BloomComponent.cs" t="Include" />
+                <e p="BuiltinDebugViewsComponent.cs" t="Include" />
+                <e p="ChromaticAberrationComponent.cs" t="Include" />
+                <e p="ColorGradingComponent.cs" t="Include" />
+                <e p="DepthOfFieldComponent.cs" t="Include" />
+                <e p="DitheringComponent.cs" t="Include" />
+                <e p="EyeAdaptationComponent.cs" t="Include" />
+                <e p="FogComponent.cs" t="Include" />
+                <e p="FxaaComponent.cs" t="Include" />
+                <e p="GrainComponent.cs" t="Include" />
+                <e p="MotionBlurComponent.cs" t="Include" />
+                <e p="ScreenSpaceReflectionComponent.cs" t="Include" />
+                <e p="TaaComponent.cs" t="Include" />
+                <e p="UserLutComponent.cs" t="Include" />
+                <e p="VignetteComponent.cs" t="Include" />
+              </e>
+              <e p="Models" t="Include">
+                <e p="AmbientOcclusionModel.cs" t="Include" />
+                <e p="AntialiasingModel.cs" t="Include" />
+                <e p="BloomModel.cs" t="Include" />
+                <e p="BuiltinDebugViewsModel.cs" t="Include" />
+                <e p="ChromaticAberrationModel.cs" t="Include" />
+                <e p="ColorGradingModel.cs" t="Include" />
+                <e p="DepthOfFieldModel.cs" t="Include" />
+                <e p="DitheringModel.cs" t="Include" />
+                <e p="EyeAdaptationModel.cs" t="Include" />
+                <e p="FogModel.cs" t="Include" />
+                <e p="GrainModel.cs" t="Include" />
+                <e p="MotionBlurModel.cs" t="Include" />
+                <e p="ScreenSpaceReflectionModel.cs" t="Include" />
+                <e p="UserLutModel.cs" t="Include" />
+                <e p="VignetteModel.cs" t="Include" />
+              </e>
+              <e p="PostProcessingBehaviour.cs" t="Include" />
+              <e p="PostProcessingComponent.cs" t="Include" />
+              <e p="PostProcessingContext.cs" t="Include" />
+              <e p="PostProcessingModel.cs" t="Include" />
+              <e p="PostProcessingProfile.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="ColorGradingCurve.cs" t="Include" />
+                <e p="GraphicsUtils.cs" t="Include" />
+                <e p="MaterialFactory.cs" t="Include" />
+                <e p="RenderTextureFactory.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="CustomMotionTexture" t="Include">
+                <e p="ExampleWheelController.cs" t="Include" />
+                <e p="Shaders" t="Include">
+                  <e p="CustomMotionVectorTexture.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Editor" t="Include">
+                <e p="FocusPullerEditor.cs" t="Include" />
+                <e p="PostProcessingControllerEditor.cs" t="Include" />
+              </e>
+              <e p="FocusPuller.cs" t="Include" />
+              <e p="PostProcessingController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PostProcessing Volume" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ResetValues.cs" t="Include" />
+            </e>
+            <e p="Example" t="Include">
+              <e p="ExampleSceneScripts" t="Include">
+                <e p="FPSViewer.cs" t="Include" />
+                <e p="MouseCamera.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="PostProcessVolume.cs" t="Include" />
+              <e p="PostProcessVolumeReceiver.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="settings.cs" t="Include" />
         <e p="Text.cs" t="Include" />
       </e>
