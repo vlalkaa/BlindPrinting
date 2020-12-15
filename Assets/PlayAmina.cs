@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayAmina : MonoBehaviour
 {
-    private int i = 0;
+    private bool enterGame = true;
     public void StartPressed()
     {
         GetComponent<Animation>().Play("start");
@@ -22,10 +20,10 @@ public class PlayAmina : MonoBehaviour
 
     public void InputPressed()
     {
-        if (i == 0)
+        if (enterGame)
         {
             GetComponent<Animation>().Play("input");
-            i++;
+            enterGame = false;
         }
         
     }
