@@ -42,6 +42,16 @@ public class PlayAmina : MonoBehaviour
     {
         GetComponent<Animation>().Play("backToText");
     }
+    
+    public void Hand()
+        {
+            GetComponent<Animation>().Play("hand");
+        }
+    
+    public void FromHand()
+    {
+        GetComponent<Animation>().Play("fromHand");
+    }
 
     public void ExitPressed()
     {
