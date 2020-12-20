@@ -26,19 +26,11 @@
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayAmina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayAmina.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/text.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/028cf8e35a2314fdda476496d104f720" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/19/1941f3717ea24702d82da492b3e8cac5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2c/2c2dd218dd3b3d80af39463fef8bc759" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3d/3d11ef2f66de3560188bbf094b22f7cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4d949c87b091050dee8b4584d33f0aca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/69/6948025b8ae16f17a277d5c802bb9d3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/69/694905feb51af2ae6bd15a481e19006b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8fa27622e3b4ef5d42b948a49ace473d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c3651911b52d10d7f41fb6f9b62c5cef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c8b3b3963137050c31ca3c63f67c91f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1e12e223b11409fbab609e796214d46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/23/233a7a04689ac487c085713a3e65ae66" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
@@ -55,8 +47,8 @@
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New Unity Project (12).sln" beforeDir="false" afterPath="$PROJECT_DIR$/New Unity Project (12).sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +62,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/new/TwoTopicScripts/TwoBackspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DontBlink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/dontBlink1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/new/ThreeTopicScripts/ThreeC0.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThreeC0.cs" />
-        <option value="$PROJECT_DIR$/Assets/Threeтире.cs" />
-        <option value="$PROJECT_DIR$/Assets/Threeплюс.cs" />
         <option value="$PROJECT_DIR$/Assets/Threeё.cs" />
         <option value="$PROJECT_DIR$/Assets/ThreelCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/ThreeEnter.cs" />
@@ -123,8 +113,12 @@
         <option value="$PROJECT_DIR$/Assets/Threeб.cs" />
         <option value="$PROJECT_DIR$/Assets/Threeи.cs" />
         <option value="$PROJECT_DIR$/Assets/Threeм.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayAmina.cs" />
         <option value="$PROJECT_DIR$/Assets/settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontBlink.cs" />
+        <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/new/ThreeTopicScripts/ThreeC0.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayAmina.cs" />
+        <option value="$PROJECT_DIR$/Assets/dontBlink1.cs" />
+        <option value="$PROJECT_DIR$/Assets/text.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +140,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build-1\BlindPrinting.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\progUnity\New Unity Project (12)\Build-1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -217,7 +219,9 @@
       <workItem from="1607895742347" duration="6130000" />
       <workItem from="1607986133697" duration="167000" />
       <workItem from="1608047357010" duration="6875000" />
-      <workItem from="1608075171024" duration="2301000" />
+      <workItem from="1608075171024" duration="2903000" />
+      <workItem from="1608149413730" duration="18110000" />
+      <workItem from="1608408566386" duration="8611000" />
     </task>
     <servers />
   </component>

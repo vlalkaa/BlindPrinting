@@ -4,105 +4,91 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
-
 public class text : MonoBehaviour
 {
     public Text textMain;
     public Text textInform;
     public Text textStatistics;
     public Text textButton;
-    //public Button stsrtButton;
-    private bool pressStartButton = false;
-    //private bool pressHomeButton;
-    private string str;
-    private char ch;
-    private int lengthStr;
-    private Stopwatch stopWatch = new Stopwatch();
-    private int[] numButton = new int [104];
-    private int oneEnter;
-    private bool firstLogin = true;
     
-    void Start()
-    {
-        //pressHomeButton = false;
+    private bool _pressStartButton = false;
+    private string _str;
+    private char _ch;
+    private int _lengthStr;
+    private Stopwatch _stopWatch = new Stopwatch();
+    private int[] _numButton = new int [104];
+    private int _oneEnter;
+    private bool _firstLogin = true;
+    private bool _column = true;
 
-        oneEnter = 1;
+    private void Start()
+    {
+        _oneEnter = 1;
         string space = "  ";
         textMain.text = space;
-        textStatistics.text = space;
+        textStatistics.text = "";
         textInform.text = space;
-         //pressStartButton = false;
-         
-        str = TextRand();
+
+        _str = TextRand();
                 
-        lengthStr = str.Length;
+        _lengthStr = _str.Length;
                 
         for (int i = 0; i < 19; i++)
         {
-            if (i == str.Length)
+            if (i == _str.Length)
                 break;
-            textMain.text = textMain.text + str[i];
+            textMain.text = textMain.text + _str[i];
             
         }
-        if (pressStartButton)
-            firstLogin = false;
+        if (_pressStartButton)
+            _firstLogin = false;
         
         for (int i = 0; i < 104; i++)
         {
-            numButton[i] = 0;
+            _numButton[i] = 0;
         }
     }
 
-    void Check()
+    private void Check()
     {
-        if (str.Length > 0)
+        if (_str.Length > 0)
         {
-            char tempch = str[0];
+            char tempch = _str[0];
             
-            if (str[0] == ch)
+            if (_str[0] == _ch)
             {
-                str = str.Remove(0, 1);
-                if (ch == '\n')
+                _str = _str.Remove(0, 1);
+                if (_ch == '\n')
                     textMain.text = $"  <color=grey>{'|'}</color>";
                 else
                     textMain.text = $" <color=green>{tempch}</color>" + $"<color=grey>{'|'}</color>";
                 for (int i = 0; i < 18; i++)
                 {
-                    if (i == str.Length)
+                    if (i == _str.Length)
                         break;
-                    textMain.text = textMain.text + str[i];
+                    textMain.text = textMain.text + _str[i];
                 }
             }
-            else if (str[0] != ch)
+            else if (_str[0] != _ch)
             {
-                numButton[NumChar(str[0])]++;
+                _numButton[NumChar(_str[0])]++;
                 textMain.text = $"  <color=red>{'|'}</color>" + $"<color=red>{tempch}</color>";
                 
                 for (int i = 1; i < 18; i++)
                 {
-                    if (i == str.Length)
+                    if (i == _str.Length)
                         break;
-                    textMain.text = textMain.text + str[i];
+                    textMain.text = textMain.text + _str[i];
                 }
-                
-                /*if (textMain.text[1] == '←')
-                {
-                    while (true)
-                    { 
-                        if (Input.GetKey(KeyCode.Backspace))
-                            break;
-                    }
-                }*/
-                
             }
         }
-        else if (str.Length == 0)
+        else if (_str.Length == 0)
         {
-            textMain.text = str;
+            textMain.text = _str;
         }
     }
 
-    string TextRand()
+    private string TextRand()
     {
         string filename = " ";
         Random rnd = new Random();
@@ -149,7 +135,7 @@ public class text : MonoBehaviour
         else return tempstr;
     }
 
-    void PressingKeyboard()
+    private void PressingKeyboard()
     {
         //SHIFT
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) 
@@ -157,329 +143,329 @@ public class text : MonoBehaviour
             //А
             if (Input.GetKeyDown("f"))
             {
-                ch = 'А';
+                _ch = 'А';
                 Check();
             }
             
             //Б
             if (Input.GetKeyDown(","))
             {
-                ch = 'Б';
+                _ch = 'Б';
                 Check();
             }
             
             //В
             if (Input.GetKeyDown("d"))
             {
-                ch = 'В';
+                _ch = 'В';
                 Check();
             }
             
             //Г
             if (Input.GetKeyDown("u"))
             {
-                ch = 'Г';
+                _ch = 'Г';
                 Check();
             }
             
             //Д
             if (Input.GetKeyDown("l"))
             {
-                ch = 'Д';
+                _ch = 'Д';
                 Check();
             }
             
             //Е
             if (Input.GetKeyDown("t"))
             {
-                ch = 'Е';
+                _ch = 'Е';
                 Check();
             }
             
             //Ё
             if (Input.GetKeyDown("`"))
             {
-                ch = 'Ё';
+                _ch = 'Ё';
                 Check();
             }
             
             //Ж
             if (Input.GetKeyDown(";"))
             {
-                ch = 'Ж';
+                _ch = 'Ж';
                 Check();
             }
             
             //З
             if (Input.GetKeyDown("p"))
             {
-                ch = 'З';
+                _ch = 'З';
                 Check();
             }
             
             //И
             if (Input.GetKeyDown("b"))
             {
-                ch = 'И';
+                _ch = 'И';
                 Check();
             }
             
             //Й
             if (Input.GetKeyDown("q"))
             {
-                ch = 'Й';
+                _ch = 'Й';
                 Check();
             }
             
             //К
             if (Input.GetKeyDown("r"))
             {
-                ch = 'К';
+                _ch = 'К';
                 Check();
             }
             
             //Л
             if (Input.GetKeyDown("k"))
             {
-                ch = 'Л';
+                _ch = 'Л';
                 Check();
             }
             
             //М
             if (Input.GetKeyDown("v"))
             {
-                ch = 'М';
+                _ch = 'М';
                 Check();
             }
             
             //Н
             if (Input.GetKeyDown("y"))
             {
-                ch = 'Н';
+                _ch = 'Н';
                 Check();
             }
             
             //О
             if (Input.GetKeyDown("j"))
             {
-                ch = 'О';
+                _ch = 'О';
                 Check();
             }
             
             //П
             if (Input.GetKeyDown("g"))
             {
-                ch = 'П';
+                _ch = 'П';
                 Check();
             }
             
             //Р
             if (Input.GetKeyDown("h"))
             {
-                ch = 'Р';
+                _ch = 'Р';
                 Check();
             }
             
             //С
             if (Input.GetKeyDown("c"))
             {
-                ch = 'С';
+                _ch = 'С';
                 Check();
             }
 
             //Т
             if (Input.GetKeyDown("n"))
             {
-                ch = 'Т';
+                _ch = 'Т';
                 Check();
             }
             
             //У
             if (Input.GetKeyDown("e"))
             {
-                ch = 'У';
+                _ch = 'У';
                 Check();
             }
             
             //Ф
             if (Input.GetKeyDown("a"))
             {
-                ch = 'Ф';
+                _ch = 'Ф';
                 Check();
             }
             
             //Х
             if (Input.GetKeyDown("["))
             {
-                ch = 'Х';
+                _ch = 'Х';
                 Check();
             }
             
             //Ц
             if (Input.GetKeyDown("w"))
             {
-                ch = 'Ц';
+                _ch = 'Ц';
                 Check();
             }
             
             //Ч
             if (Input.GetKeyDown("x"))
             {
-                ch = 'Ч';
+                _ch = 'Ч';
                 Check();
             }
             
             //Ш
             if (Input.GetKeyDown("i"))
             {
-                ch = 'Ш';
+                _ch = 'Ш';
                 Check();
             }
             
             //Щ
             if (Input.GetKeyDown("o"))
             {
-                ch = 'Щ';
+                _ch = 'Щ';
                 Check();
             }
             
             //Ъ
             if (Input.GetKeyDown("]"))
             {
-                ch = 'Ъ';
+                _ch = 'Ъ';
                 Check();
             }
             
             //Ы
             if (Input.GetKeyDown("s"))
             {
-                ch = 'Ы';
+                _ch = 'Ы';
                 Check();
             }
             
             //Ь
             if (Input.GetKeyDown("m"))
             {
-                ch = 'Ь';
+                _ch = 'Ь';
                 Check();
             }
             
             //Э
             if (Input.GetKeyDown("'"))
             {
-                ch = 'Э';
+                _ch = 'Э';
                 Check();
             }
             
             //Ю
             if (Input.GetKeyDown("."))
             {
-                ch = 'Ю';
+                _ch = 'Ю';
                 Check();
             }
             
             //Я
             if (Input.GetKeyDown("z"))
             {
-                ch = 'Я';
+                _ch = 'Я';
                 Check();
             }
             
             //запятая
             if (Input.GetKeyDown("/"))
             {
-                ch = ',';
+                _ch = ',';
                 Check();
             }
 
             //воскл знак
             if (Input.GetKeyDown("1"))
             {
-                ch = '!';
+                _ch = '!';
                 Check();
             }
             
             //ковычки
             if (Input.GetKeyDown("2"))
             {
-                ch = '"';
+                _ch = '"';
                 Check();
             }
             
             //№
             if (Input.GetKeyDown("3"))
             {
-                ch = '№';
+                _ch = '№';
                 Check();
             }
             
             //точка с запятой
             if (Input.GetKeyDown("4"))
             {
-                ch = ';';
+                _ch = ';';
                 Check();
             }
             
             //процент
             if (Input.GetKeyDown("5"))
             {
-                ch = '%';
+                _ch = '%';
                 Check();
             }
             
             //двоеточие
             if (Input.GetKeyDown("6"))
             {
-                ch = ':';
+                _ch = ':';
                 Check();
             }
             
             //вопр знак
             if (Input.GetKeyDown("7"))
             {
-                ch = '?';
+                _ch = '?';
                 Check();
             }
             
             //звездочка
             if (Input.GetKeyDown("8"))
             {
-                ch = '*';
+                _ch = '*';
                 Check();
             }
             
             //открыв скобка
             if (Input.GetKeyDown("9"))
             {
-                ch = '(';
+                _ch = '(';
                 Check();
             }
             
             //закрыв скобка
             if (Input.GetKeyDown("0"))
             {
-                ch = ')';
+                _ch = ')';
                 Check();
             }
             
             //_
             if (Input.GetKeyDown("-"))
             {
-                ch = '_';
+                _ch = '_';
                 Check();
             }
             
             //+
             if (Input.GetKeyDown("="))
             {
-                ch = '+';
+                _ch = '+';
                 Check();
             }
             
             ///
             if (Input.GetKeyDown("\\"))
             {
-                ch = '/';
+                _ch = '/';
                 Check();
             }
         }
@@ -488,339 +474,339 @@ public class text : MonoBehaviour
             //А
             if (Input.GetKeyDown("f"))
             {
-                ch = 'а';
+                _ch = 'а';
                 Check();
             }
             
             //Б
             if (Input.GetKeyDown(","))
             {
-                ch = 'б';
+                _ch = 'б';
                 Check();
             }
             
             //В
             if (Input.GetKeyDown("d"))
             {
-                ch = 'в';
+                _ch = 'в';
                 Check();
             }
             
             //Г
             if (Input.GetKeyDown("u"))
             {
-                ch = 'г';
+                _ch = 'г';
                 Check();
             }
             
             //Д
             if (Input.GetKeyDown("l"))
             {
-                ch = 'д';
+                _ch = 'д';
                 Check();
             }
             
             //Е
             if (Input.GetKeyDown("t"))
             {
-                ch = 'е';
+                _ch = 'е';
                 Check();
             }
             
             //Ё
             if (Input.GetKeyDown("`"))
             {
-                ch = 'ё';
+                _ch = 'ё';
                 Check();
             }
             
             //Ж
             if (Input.GetKeyDown(";"))
             {
-                ch = 'ж';
+                _ch = 'ж';
                 Check();
             }
             
             //З
             if (Input.GetKeyDown("p"))
             {
-                ch = 'з';
+                _ch = 'з';
                 Check();
             }
             
             //И
             if (Input.GetKeyDown("b"))
             {
-                ch = 'и';
+                _ch = 'и';
                 Check();
             }
             
             //Й
             if (Input.GetKeyDown("q"))
             {
-                ch = 'й';
+                _ch = 'й';
                 Check();
             }
             
             //К
             if (Input.GetKeyDown("r"))
             {
-                ch = 'к';
+                _ch = 'к';
                 Check();
             }
             
             //Л
             if (Input.GetKeyDown("k"))
             {
-                ch = 'л';
+                _ch = 'л';
                 Check();
             }
             
             //М
             if (Input.GetKeyDown("v"))
             {
-                ch = 'м';
+                _ch = 'м';
                 Check();
             }
             
             //Н
             if (Input.GetKeyDown("y"))
             {
-                ch = 'н';
+                _ch = 'н';
                 Check();
             }
             
             //О
             if (Input.GetKeyDown("j"))
             {
-                ch = 'о';
+                _ch = 'о';
                 Check();
             }
             
             //П
             if (Input.GetKeyDown("g"))
             {
-                ch = 'п';
+                _ch = 'п';
                 Check();
             }
             
             //Р
             if (Input.GetKeyDown("h"))
             {
-                ch = 'р';
+                _ch = 'р';
                 Check();
             }
             
             //С
             if (Input.GetKeyDown("c"))
             {
-                ch = 'с';
+                _ch = 'с';
                 Check();
             }
 
             //Т
             if (Input.GetKeyDown("n"))
             {
-                ch = 'т';
+                _ch = 'т';
                 Check();
             }
             
             //У
             if (Input.GetKeyDown("e"))
             {
-                ch = 'у';
+                _ch = 'у';
                 Check();
             }
             
             //Ф
             if (Input.GetKeyDown("a"))
             {
-                ch = 'ф';
+                _ch = 'ф';
                 Check();
             }
             
             //Х
             if (Input.GetKeyDown("["))
             {
-                ch = 'х';
+                _ch = 'х';
                 Check();
             }
             
             //Ц
             if (Input.GetKeyDown("w"))
             {
-                ch = 'ц';
+                _ch = 'ц';
                 Check();
             }
             
             //Ч
             if (Input.GetKeyDown("x"))
             {
-                ch = 'ч';
+                _ch = 'ч';
                 Check();
             }
             
             //Ш
             if (Input.GetKeyDown("i"))
             {
-                ch = 'ш';
+                _ch = 'ш';
                 Check();
             }
             
             //Щ
             if (Input.GetKeyDown("o"))
             {
-                ch = 'щ';
+                _ch = 'щ';
                 Check();
             }
             
             //Ъ
             if (Input.GetKeyDown("]"))
             {
-                ch = 'ъ';
+                _ch = 'ъ';
                 Check();
             }
             
             //Ы
             if (Input.GetKeyDown("s"))
             {
-                ch = 'ы';
+                _ch = 'ы';
                 Check();
             }
             
             //Ь
             if (Input.GetKeyDown("m"))
             {
-                ch = 'ь';
+                _ch = 'ь';
                 Check();
             }
             
             //Э
             if (Input.GetKeyDown("'"))
             {
-                ch = 'э';
+                _ch = 'э';
                 Check();
             }
             
             //Ю
             if (Input.GetKeyDown("."))
             {
-                ch = 'ю';
+                _ch = 'ю';
                 Check();
             }
             
             //Я
             if (Input.GetKeyDown("z"))
             {
-                ch = 'я';
+                _ch = 'я';
                 Check();
             }
             
             //пробел
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                ch = ' ';
+                _ch = ' ';
                 Check();
             }
             
             //точка
             if (Input.GetKeyDown("/"))
             {
-                ch = '.';
+                _ch = '.';
                 Check();
             }
             
             //enter
             if (Input.GetKeyDown(KeyCode.Return))//исправить тройной баг
             {
-                ch = '↵';
+                _ch = '↵';
                 Check();
-                ch = '\r';
+                _ch = '\r';
                 Check();
-                ch = '\n';
+                _ch = '\n';
                 Check();
             } 
             
             //1
             if (Input.GetKeyDown("1"))
             {
-                ch = '1';
+                _ch = '1';
                 Check();
             }
             
             //2
             if (Input.GetKeyDown("2"))
             {
-                ch = '2';
+                _ch = '2';
                 Check();
             }
             
             //3
             if (Input.GetKeyDown("3"))
             {
-                ch = '3';
+                _ch = '3';
                 Check();
             }
             
             //4
             if (Input.GetKeyDown("4"))
             {
-                ch = '4';
+                _ch = '4';
                 Check();
             }
             
             //5
             if (Input.GetKeyDown("5"))
             {
-                ch = '5';
+                _ch = '5';
                 Check();
             }
             
             //6
             if (Input.GetKeyDown("6"))
             {
-                ch = '6';
+                _ch = '6';
                 Check();
             }
             
             //7
             if (Input.GetKeyDown("7"))
             {
-                ch = '7';
+                _ch = '7';
                 Check();
             }
             
             //8
             if (Input.GetKeyDown("8"))
             {
-                ch = '8';
+                _ch = '8';
                 Check();
             }
             
             //9
             if (Input.GetKeyDown("9"))
             {
-                ch = '9';
+                _ch = '9';
                 Check();
             }
             
             //0
             if (Input.GetKeyDown("0"))
             {
-                ch = '0';
+                _ch = '0';
                 Check();
             }
             
             //тире
             if (Input.GetKeyDown("-"))
             {
-                ch = '-';
+                _ch = '-';
                 Check();
             }
         }
     }
 
-    void PressingKeyboardEng()
+    private void PressingKeyboardEng()
     {
         //SHIFT
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) 
@@ -828,329 +814,329 @@ public class text : MonoBehaviour
             //А
             if (Input.GetKeyDown("f"))
             {
-                ch = 'F';
+                _ch = 'F';
                 Check();
             }
             
             //Б
             if (Input.GetKeyDown(","))
             {
-                ch = '<';
+                _ch = '<';
                 Check();
             }
             
             //В
             if (Input.GetKeyDown("d"))
             {
-                ch = 'D';
+                _ch = 'D';
                 Check();
             }
             
             //Г
             if (Input.GetKeyDown("u"))
             {
-                ch = 'U';
+                _ch = 'U';
                 Check();
             }
             
             //Д
             if (Input.GetKeyDown("l"))
             {
-                ch = 'L';
+                _ch = 'L';
                 Check();
             }
             
             //Е
             if (Input.GetKeyDown("t"))
             {
-                ch = 'T';
+                _ch = 'T';
                 Check();
             }
             
             //Ё
             if (Input.GetKeyDown("`"))
             {
-                ch = '~';
+                _ch = '~';
                 Check();
             }
             
             //Ж
             if (Input.GetKeyDown(";"))
             {
-                ch = ':';
+                _ch = ':';
                 Check();
             }
             
             //З
             if (Input.GetKeyDown("p"))
             {
-                ch = 'P';
+                _ch = 'P';
                 Check();
             }
             
             //И
             if (Input.GetKeyDown("b"))
             {
-                ch = 'B';
+                _ch = 'B';
                 Check();
             }
             
             //Й
             if (Input.GetKeyDown("q"))
             {
-                ch = 'Q';
+                _ch = 'Q';
                 Check();
             }
             
             //К
             if (Input.GetKeyDown("r"))
             {
-                ch = 'R';
+                _ch = 'R';
                 Check();
             }
             
             //Л
             if (Input.GetKeyDown("k"))
             {
-                ch = 'K';
+                _ch = 'K';
                 Check();
             }
             
             //М
             if (Input.GetKeyDown("v"))
             {
-                ch = 'V';
+                _ch = 'V';
                 Check();
             }
             
             //Н
             if (Input.GetKeyDown("y"))
             {
-                ch = 'Y';
+                _ch = 'Y';
                 Check();
             }
             
             //О
             if (Input.GetKeyDown("j"))
             {
-                ch = 'J';
+                _ch = 'J';
                 Check();
             }
             
             //П
             if (Input.GetKeyDown("g"))
             {
-                ch = 'G';
+                _ch = 'G';
                 Check();
             }
             
             //Р
             if (Input.GetKeyDown("h"))
             {
-                ch = 'H';
+                _ch = 'H';
                 Check();
             }
             
             //С
             if (Input.GetKeyDown("c"))
             {
-                ch = 'C';
+                _ch = 'C';
                 Check();
             }
 
             //Т
             if (Input.GetKeyDown("n"))
             {
-                ch = 'N';
+                _ch = 'N';
                 Check();
             }
             
             //У
             if (Input.GetKeyDown("e"))
             {
-                ch = 'E';
+                _ch = 'E';
                 Check();
             }
             
             //Ф
             if (Input.GetKeyDown("a"))
             {
-                ch = 'A';
+                _ch = 'A';
                 Check();
             }
             
             //Х
             if (Input.GetKeyDown("["))
             {
-                ch = '{';
+                _ch = '{';
                 Check();
             }
             
             //Ц
             if (Input.GetKeyDown("w"))
             {
-                ch = 'W';
+                _ch = 'W';
                 Check();
             }
             
             //Ч
             if (Input.GetKeyDown("x"))
             {
-                ch = 'X';
+                _ch = 'X';
                 Check();
             }
             
             //Ш
             if (Input.GetKeyDown("i"))
             {
-                ch = 'I';
+                _ch = 'I';
                 Check();
             }
             
             //Щ
             if (Input.GetKeyDown("o"))
             {
-                ch = 'O';
+                _ch = 'O';
                 Check();
             }
             
             //Ъ
             if (Input.GetKeyDown("]"))
             {
-                ch = '}';
+                _ch = '}';
                 Check();
             }
             
             //Ы
             if (Input.GetKeyDown("s"))
             {
-                ch = 'S';
+                _ch = 'S';
                 Check();
             }
             
             //Ь
             if (Input.GetKeyDown("m"))
             {
-                ch = 'M';
+                _ch = 'M';
                 Check();
             }
             
             //Э
             if (Input.GetKeyDown("'"))
             {
-                ch = '"';
+                _ch = '"';
                 Check();
             }
             
             //Ю
             if (Input.GetKeyDown("."))
             {
-                ch = '>';
+                _ch = '>';
                 Check();
             }
             
             //Я
             if (Input.GetKeyDown("z"))
             {
-                ch = 'Z';
+                _ch = 'Z';
                 Check();
             }
             
             //запятая
             if (Input.GetKeyDown("/"))
             {
-                ch = '?';
+                _ch = '?';
                 Check();
             }
 
             //воскл знак
             if (Input.GetKeyDown("1"))
             {
-                ch = '!';
+                _ch = '!';
                 Check();
             }
             
             //ковычки
             if (Input.GetKeyDown("2"))
             {
-                ch = '@';
+                _ch = '@';
                 Check();
             }
             
             //№
             if (Input.GetKeyDown("3"))
             {
-                ch = '#';
+                _ch = '#';
                 Check();
             }
             
             //точка с запятой
             if (Input.GetKeyDown("4"))
             {
-                ch = '$';
+                _ch = '$';
                 Check();
             }
             
             //процент
             if (Input.GetKeyDown("5"))
             {
-                ch = '%';
+                _ch = '%';
                 Check();
             }
             
             //двоеточие
             if (Input.GetKeyDown("6"))
             {
-                ch = '^';
+                _ch = '^';
                 Check();
             }
             
             //вопр знак
             if (Input.GetKeyDown("7"))
             {
-                ch = '&';
+                _ch = '&';
                 Check();
             }
             
             //звездочка
             if (Input.GetKeyDown("8"))
             {
-                ch = '*';
+                _ch = '*';
                 Check();
             }
             
             //открыв скобка
             if (Input.GetKeyDown("9"))
             {
-                ch = '(';
+                _ch = '(';
                 Check();
             }
             
             //закрыв скобка
             if (Input.GetKeyDown("0"))
             {
-                ch = ')';
+                _ch = ')';
                 Check();
             }
             
             //_
             if (Input.GetKeyDown("-"))
             {
-                ch = '_';
+                _ch = '_';
                 Check();
             }
             
             //+
             if (Input.GetKeyDown("="))
             {
-                ch = '+';
+                _ch = '+';
                 Check();
             }
             
             ///
             if (Input.GetKeyDown("\\"))
             {
-                ch = '|';
+                _ch = '|';
                 Check();
             }
         }
@@ -1159,349 +1145,348 @@ public class text : MonoBehaviour
             //А
             if (Input.GetKeyDown("f"))
             {
-                ch = 'f';
+                _ch = 'f';
                 Check();
             }
             
             //Б
             if (Input.GetKeyDown(","))
             {
-                ch = ',';
+                _ch = ',';
                 Check();
             }
             
             //В
             if (Input.GetKeyDown("d"))
             {
-                ch = 'd';
+                _ch = 'd';
                 Check();
             }
             
             //Г
             if (Input.GetKeyDown("u"))
             {
-                ch = 'u';
+                _ch = 'u';
                 Check();
             }
             
             //Д
             if (Input.GetKeyDown("l"))
             {
-                ch = 'l';
+                _ch = 'l';
                 Check();
             }
             
             //Е
             if (Input.GetKeyDown("t"))
             {
-                ch = 't';
+                _ch = 't';
                 Check();
             }
             
             //Ё
             if (Input.GetKeyDown("`"))
             {
-                ch = '`';
+                _ch = '`';
                 Check();
             }
             
             //Ж
             if (Input.GetKeyDown(";"))
             {
-                ch = ';';
+                _ch = ';';
                 Check();
             }
             
             //З
             if (Input.GetKeyDown("p"))
             {
-                ch = 'p';
+                _ch = 'p';
                 Check();
             }
             
             //И
             if (Input.GetKeyDown("b"))
             {
-                ch = 'b';
+                _ch = 'b';
                 Check();
             }
             
             //Й
             if (Input.GetKeyDown("q"))
             {
-                ch = 'q';
+                _ch = 'q';
                 Check();
             }
             
             //К
             if (Input.GetKeyDown("r"))
             {
-                ch = 'r';
+                _ch = 'r';
                 Check();
             }
             
             //Л
             if (Input.GetKeyDown("k"))
             {
-                ch = 'k';
+                _ch = 'k';
                 Check();
             }
             
             //М
             if (Input.GetKeyDown("v"))
             {
-                ch = 'v';
+                _ch = 'v';
                 Check();
             }
             
             //Н
             if (Input.GetKeyDown("y"))
             {
-                ch = 'y';
+                _ch = 'y';
                 Check();
             }
             
             //О
             if (Input.GetKeyDown("j"))
             {
-                ch = 'j';
+                _ch = 'j';
                 Check();
             }
             
             //П
             if (Input.GetKeyDown("g"))
             {
-                ch = 'g';
+                _ch = 'g';
                 Check();
             }
             
             //Р
             if (Input.GetKeyDown("h"))
             {
-                ch = 'h';
+                _ch = 'h';
                 Check();
             }
             
             //С
             if (Input.GetKeyDown("c"))
             {
-                ch = 'c';
+                _ch = 'c';
                 Check();
             }
 
             //Т
             if (Input.GetKeyDown("n"))
             {
-                ch = 'n';
+                _ch = 'n';
                 Check();
             }
             
             //У
             if (Input.GetKeyDown("e"))
             {
-                ch = 'e';
+                _ch = 'e';
                 Check();
             }
             
             //Ф
             if (Input.GetKeyDown("a"))
             {
-                ch = 'a';
+                _ch = 'a';
                 Check();
             }
             
             //Х
             if (Input.GetKeyDown("["))
             {
-                ch = '[';
+                _ch = '[';
                 Check();
             }
             
             //Ц
             if (Input.GetKeyDown("w"))
             {
-                ch = 'w';
+                _ch = 'w';
                 Check();
             }
             
             //Ч
             if (Input.GetKeyDown("x"))
             {
-                ch = 'x';
+                _ch = 'x';
                 Check();
             }
             
             //Ш
             if (Input.GetKeyDown("i"))
             {
-                ch = 'i';
+                _ch = 'i';
                 Check();
             }
             
             //Щ
             if (Input.GetKeyDown("o"))
             {
-                ch = 'o';
+                _ch = 'o';
                 Check();
             }
             
             //Ъ
             if (Input.GetKeyDown("]"))
             {
-                ch = ']';
+                _ch = ']';
                 Check();
             }
             
             //Ы
             if (Input.GetKeyDown("s"))
             {
-                ch = 's';
+                _ch = 's';
                 Check();
             }
             
             //Ь
             if (Input.GetKeyDown("m"))
             {
-                ch = 'm';
+                _ch = 'm';
                 Check();
             }
             
             //Э
             if (Input.GetKeyDown("'"))
             {
-                ch = '\'';
+                _ch = '\'';
                 Check();
             }
             
             //Ю
             if (Input.GetKeyDown("."))
             {
-                ch = '.';
+                _ch = '.';
                 Check();
             }
             
             //Я
             if (Input.GetKeyDown("z"))
             {
-                ch = 'z';
+                _ch = 'z';
                 Check();
             }
             
             //пробел
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                ch = ' ';
+                _ch = ' ';
                 Check();
             }
             
             //точка
             if (Input.GetKeyDown("/"))
             {
-                ch = '/';
+                _ch = '/';
                 Check();
             }
             
             //enter
             if (Input.GetKeyDown(KeyCode.Return))//исправить тройной баг
             {
-                ch = '↵';
+                _ch = '↵';
                 Check();
-                ch = '\r';
+                _ch = '\r';
                 Check();
-                ch = '\n';
+                _ch = '\n';
                 Check();
             } 
             
             //1
             if (Input.GetKeyDown("1"))
             {
-                ch = '1';
+                _ch = '1';
                 Check();
             }
             
             //2
             if (Input.GetKeyDown("2"))
             {
-                ch = '2';
+                _ch = '2';
                 Check();
             }
             
             //3
             if (Input.GetKeyDown("3"))
             {
-                ch = '3';
+                _ch = '3';
                 Check();
             }
             
             //4
             if (Input.GetKeyDown("4"))
             {
-                ch = '4';
+                _ch = '4';
                 Check();
             }
             
             //5
             if (Input.GetKeyDown("5"))
             {
-                ch = '5';
+                _ch = '5';
                 Check();
             }
             
             //6
             if (Input.GetKeyDown("6"))
             {
-                ch = '6';
+                _ch = '6';
                 Check();
             }
             
             //7
             if (Input.GetKeyDown("7"))
             {
-                ch = '7';
+                _ch = '7';
                 Check();
             }
             
             //8
             if (Input.GetKeyDown("8"))
             {
-                ch = '8';
+                _ch = '8';
                 Check();
             }
             
             //9
             if (Input.GetKeyDown("9"))
             {
-                ch = '9';
+                _ch = '9';
                 Check();
             }
             
             //0
             if (Input.GetKeyDown("0"))
             {
-                ch = '0';
+                _ch = '0';
                 Check();
             }
             
             //тире
             if (Input.GetKeyDown("-"))
             {
-                ch = '-';
+                _ch = '-';
                 Check();
             }
         }
     }
     
-    void CharacterInMinutes()
+    private void CharacterInMinutes()
     {
-        //stopWatch.Reset();
-
-        if (str.Length == lengthStr - 1)
-            stopWatch.Restart();
-        if (str.Length == 0)
+        if (_str.Length == _lengthStr - 1)
+            _stopWatch.Restart();
+        
+        if (_str.Length == 0)
         {
-            stopWatch.Stop();
-            long seconds = stopWatch.ElapsedMilliseconds/1000;
-            long tempF = 60 * lengthStr / seconds;
+            _stopWatch.Stop();
+            long seconds = _stopWatch.ElapsedMilliseconds/1000;
+            long tempF = 60 * _lengthStr / seconds;
             textInform.text = tempF.ToString() + " зн/m";
         }
         
@@ -1509,39 +1494,23 @@ public class text : MonoBehaviour
 
     public void PressStartButton()
     {
-        pressStartButton = true;
+        _pressStartButton = true;
     }
 
     public void PressHomeButton()
     {
-        //pressHomeButton = true;
-        pressStartButton = false;
-        firstLogin = true;
+        _pressStartButton = false;
+        _firstLogin = true;
     }
 
     // Update is calle once per frame
-    void Update()
+    private void Update()
     {
-        if (pressStartButton)
+        if (_pressStartButton)
         {
-            if (firstLogin)
+            if (_firstLogin)
             { 
                 Start();
-                /*string space = "  ";
-                textMain.text = space;
-                
-                str = textRand();
-                
-                lengthStr = str.Length;
-                
-                for (int i = 0; i < 19; i++)
-                {
-                    if (i == str.Length)
-                        break;
-                    textMain.text = textMain.text + str[i];
-                }
-
-                firstLogin = false;*/
             }
             
             if (textButton.text == "Язык ru")
@@ -1549,13 +1518,13 @@ public class text : MonoBehaviour
                PressingKeyboard();
                CharacterInMinutes();
    
-               if(str.Length == 0)  //Сработывает только один раз
+               if(_str.Length == 0)  //Сработывает только один раз
                {
-                   if(oneEnter == 1)
+                   if(_oneEnter == 1)
                    {
                        EnterInform();
                    }
-                   oneEnter--;
+                   _oneEnter--;
                }
             }
             else if (textButton.text == "Язык eng")
@@ -1563,14 +1532,14 @@ public class text : MonoBehaviour
                PressingKeyboardEng();
                CharacterInMinutes();
                
-               if(str.Length == 0)  //Сработывает только один раз
+               if(_str.Length == 0)  //Сработывает только один раз
                {
                    
-                   if(oneEnter == 1)
+                   if(_oneEnter == 1)
                    {
                        EnterInformEng();
                    }
-                   oneEnter--;
+                   _oneEnter--;
                }
             } 
         }
@@ -1583,7 +1552,7 @@ public class text : MonoBehaviour
     }
     
 
-    int NumChar(char tempChar)
+    private int NumChar(char tempChar)
     {
         int tempInt = -1;
 
@@ -2022,12 +1991,12 @@ public class text : MonoBehaviour
         return tempInt;
     }
 
-    void EnterInform()
+    private void EnterInform()
     {
-        int[] EnterBut = new int[104];
+        //int[] enterBut = new int[104];
         for (int i = 0; i < 104; i++)
         {
-            if (numButton[i] != 0)
+            if (_numButton[i] != 0)
             {
                 char tempChar = ' ';
                 switch (i)
@@ -2171,17 +2140,26 @@ public class text : MonoBehaviour
                         tempChar = '-';
                         break;
                 }
-                textStatistics.text = textStatistics.text + " " + tempChar + " = " + numButton[i] + "\n";
+
+                if (_column)
+                {
+                    textStatistics.text = textStatistics.text  + tempChar + " = " + _numButton[i];
+                    _column = false;
+                }
+                else
+                {
+                    textStatistics.text = textStatistics.text  + "|"+ tempChar + " = " + _numButton[i] + "\n";
+                    _column = true;
+                }
             }    
         }
     }
     
-    void EnterInformEng()
+    private void EnterInformEng()
     {
-        int[] EnterBut = new int[104];
         for (int i = 0; i < 104; i++)
         {
-            if (numButton[i] != 0)
+            if (_numButton[i] != 0)
             {
                 char tempChar = ' ';
                 switch (i)
@@ -2304,7 +2282,7 @@ public class text : MonoBehaviour
                         tempChar = '-';
                         break;
                 }
-                textStatistics.text = textStatistics.text + " " + tempChar + " = " + numButton[i] + "\n";
+                textStatistics.text = textStatistics.text + " " + tempChar + " = " + _numButton[i] + "\n";
             }    
         }
     }

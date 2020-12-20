@@ -188,6 +188,8 @@
             </e>
           </e>
         </e>
+        <e p="DontBlink.cs" t="Include" />
+        <e p="dontBlink1.cs" t="Include" />
         <e p="PlayAmina.cs" t="Include" />
         <e p="settings.cs" t="Include" />
         <e p="Text.cs" t="Include" />
