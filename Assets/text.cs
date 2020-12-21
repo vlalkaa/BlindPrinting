@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using UnityEngine;
@@ -11,12 +12,15 @@ public class text : MonoBehaviour
     public Text textStatistics;
     public Text textButton;
     
-    private bool _pressStartButton = false;
+    private bool _pressStartButton;
     private string _str;
     private char _ch;
     private int _lengthStr;
-    private Stopwatch _stopWatch = new Stopwatch();
-    private int[] _numButton = new int [104];
+    
+    private int _TEMPlengthStr;
+    
+    private readonly Stopwatch _stopWatch = new Stopwatch();
+    private readonly int[] _numButton = new int [104];
     private int _oneEnter;
     private bool _firstLogin = true;
     private bool _column = true;
@@ -32,6 +36,8 @@ public class text : MonoBehaviour
         _str = TextRand();
                 
         _lengthStr = _str.Length;
+
+        _TEMPlengthStr = 0;
                 
         for (int i = 0; i < 19; i++)
         {
@@ -68,6 +74,8 @@ public class text : MonoBehaviour
                         break;
                     textMain.text = textMain.text + _str[i];
                 }
+
+                _TEMPlengthStr++;
             }
             else if (_str[0] != _ch)
             {
@@ -86,6 +94,7 @@ public class text : MonoBehaviour
         {
             textMain.text = _str;
         }
+        
     }
 
     private string TextRand()
@@ -1487,9 +1496,21 @@ public class text : MonoBehaviour
             _stopWatch.Stop();
             long seconds = _stopWatch.ElapsedMilliseconds/1000;
             long tempF = 60 * _lengthStr / seconds;
-            textInform.text = tempF.ToString() + " зн/m";
+            textInform.text = tempF + " зн/m";
         }
         
+    }
+    
+    private void CharacterInMinutes2_0()
+    {
+        if (_str.Length == _lengthStr - 1)
+            _stopWatch.Restart();
+        if (_str.Length < _lengthStr -2)
+        {
+            double seconds = _stopWatch.ElapsedMilliseconds / 1000;
+            double tempF = 60 * _TEMPlengthStr / seconds;
+            textInform.text = Math.Round(tempF,2) + " зн/m";
+        }
     }
 
     public void PressStartButton()
@@ -1515,32 +1536,13 @@ public class text : MonoBehaviour
             
             if (textButton.text == "Язык ru")
             {
-               PressingKeyboard();
-               CharacterInMinutes();
-   
-               if(_str.Length == 0)  //Сработывает только один раз
-               {
-                   if(_oneEnter == 1)
-                   {
-                       EnterInform();
-                   }
-                   _oneEnter--;
-               }
+                PressingKeyboard();
+                CallingMainMethods("ru");
             }
             else if (textButton.text == "Язык eng")
-            {
-               PressingKeyboardEng();
-               CharacterInMinutes();
-               
-               if(_str.Length == 0)  //Сработывает только один раз
-               {
-                   
-                   if(_oneEnter == 1)
-                   {
-                       EnterInformEng();
-                   }
-                   _oneEnter--;
-               }
+            { 
+                PressingKeyboardEng();
+                CallingMainMethods("eng");
             } 
         }
         else
@@ -1550,7 +1552,26 @@ public class text : MonoBehaviour
         }
         
     }
-    
+
+    private void CallingMainMethods(string lungStr)
+    {
+        
+        CharacterInMinutes();
+        CharacterInMinutes2_0();
+               
+        if(_str.Length == 0)  //Сработывает только один раз
+        {
+                   
+            if(_oneEnter == 1)
+            {
+                if (lungStr == "ru")
+                    EnterInform();
+                else if (lungStr == "eng")
+                    EnterInformEng();
+            }
+            _oneEnter--;
+        }
+    }
 
     private int NumChar(char tempChar)
     {

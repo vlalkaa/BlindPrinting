@@ -188,7 +188,6 @@
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\ThreeTab.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\OneTopicScripts\л.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\TwoTopicScripts\TwoBackspace.cs" />
-     <Compile Include="Assets\DontBlink.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\TwoTopicScripts\TwoC8.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\TwoTopicScripts\Twoб.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\ThreeC6.cs" />
