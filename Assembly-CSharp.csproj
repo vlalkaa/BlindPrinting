@@ -145,6 +145,7 @@
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\Threeж.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\Threeз.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\TwoTopicScripts\Twoъ.cs" />
+     <Compile Include="Assets\ActiveScreens.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\Threeы.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\OneTopicScripts\ъ.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\ThreeEnter.cs" />

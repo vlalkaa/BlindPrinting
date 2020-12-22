@@ -2303,8 +2303,16 @@ public class text : MonoBehaviour
                         tempChar = '-';
                         break;
                 }
-                textStatistics.text = textStatistics.text + " " + tempChar + " = " + _numButton[i] + "\n";
-            }    
+                if (_column)
+                {
+                    textStatistics.text = textStatistics.text  + tempChar + " = " + _numButton[i];
+                    _column = false;
+                }
+                else
+                {
+                    textStatistics.text = textStatistics.text  + "|"+ tempChar + " = " + _numButton[i] + "\n";
+                    _column = true;
+                }            }    
         }
     }
 }

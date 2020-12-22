@@ -22,8 +22,6 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
-      <Path>b2</Path>
-      <Path>b3</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayAmina : MonoBehaviour
 {
     private bool enterGame = true;
-
     public void StartPressed()
     {
         GetComponent<Animation>().Play("start");
