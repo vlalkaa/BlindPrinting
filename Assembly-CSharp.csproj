@@ -229,6 +229,7 @@
      <Compile Include="Assets\ClickAnimationScripts\new\OneTopicScripts\р.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\ThreeTopicScripts\ThreelAlt.cs" />
      <Compile Include="Assets\ClickAnimationScripts\new\OneTopicScripts\C3.cs" />
+     <Compile Include="Assets\SelectText.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/progUnity/New Unity Project (12)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

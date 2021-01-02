@@ -191,6 +191,7 @@
         </e>
         <e p="dontBlink1.cs" t="Include" />
         <e p="PlayAmina.cs" t="Include" />
+        <e p="SelectText.cs" t="Include" />
         <e p="settings.cs" t="Include" />
         <e p="Text.cs" t="Include" />
       </e>

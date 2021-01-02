@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Net.Mime;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,19 +12,31 @@ public class text : MonoBehaviour
     public Text textInform;
     public Text textStatistics;
     public Text textButton;
-    
+
+    public Text textEnterStat;
+
     private bool _pressStartButton;
     private string _str;
     private char _ch;
     private int _lengthStr;
     
     private int _TEMPlengthStr;
+    private bool _veryFirstLogin; 
     
     private readonly Stopwatch _stopWatch = new Stopwatch();
     private readonly int[] _numButton = new int [104];
     private int _oneEnter;
     private bool _firstLogin = true;
     private bool _column = true;
+    
+    public Item item;
+
+    private bool _buttonTopicText1 = true;
+    private bool _buttonTopicText2;
+    private bool _buttonTopicText3;
+    private bool _buttonTopicText4;
+
+    private string nameFile;
 
     private void Start()
     {
@@ -33,8 +46,11 @@ public class text : MonoBehaviour
         textStatistics.text = "";
         textInform.text = space;
 
-        _str = TextRand();
-                
+        //_str = TextRand();
+        SelectFile();
+        _str = item.textFromFile; 
+                  
+        
         _lengthStr = _str.Length;
 
         _TEMPlengthStr = 0;
@@ -144,6 +160,75 @@ public class text : MonoBehaviour
         else return tempstr;
     }
 
+    public class Item
+    {
+        public string textFromFile;
+        public string statisticsFromFile;
+        public string speedFromFile;
+    }
+    
+    public void ButtonTopicText1()
+    {
+        _buttonTopicText1 = true;
+        _buttonTopicText2 = false;
+        _buttonTopicText3 = false;
+        _buttonTopicText4 = false;
+    }
+    
+    public void ButtonTopicText2()
+    {
+        _buttonTopicText1 = false;
+        _buttonTopicText2 = true;
+        _buttonTopicText3 = false;
+        _buttonTopicText4 = false;
+    }
+    
+    public void ButtonTopicText3()
+    {
+        _buttonTopicText1 = false;
+        _buttonTopicText2 = false;
+        _buttonTopicText3 = true;
+        _buttonTopicText4 = false;
+    }
+    
+    public void ButtonTopicText4()
+    {
+        _buttonTopicText1 = false;
+        _buttonTopicText2 = false;
+        _buttonTopicText3 = false;
+        _buttonTopicText4 = true;
+    }
+
+    private void SelectNameFile()
+    {
+        if (textButton.text == "Язык ru")
+        {
+            if (_buttonTopicText1)
+                nameFile = "/Text1.json";
+            else if (_buttonTopicText2)
+                nameFile = "/Text2.json";
+            else if (_buttonTopicText3)
+                nameFile = "/Text3.json";
+            else if (_buttonTopicText4)
+                nameFile = "/Text4.json";
+        }
+        else if (textButton.text == "Язык eng")
+        {
+            
+        }
+    }
+
+    private void SelectFile()
+    {
+        SelectNameFile();
+        item = JsonUtility.FromJson<Item>(File.ReadAllText(Application.streamingAssetsPath + nameFile));
+    }
+
+    private void SaveToFile()
+    {
+        File.WriteAllText(Application.streamingAssetsPath + nameFile, JsonUtility.ToJson(item));
+    }
+    
     private void PressingKeyboard()
     {
         //SHIFT
@@ -1516,6 +1601,7 @@ public class text : MonoBehaviour
     public void PressStartButton()
     {
         _pressStartButton = true;
+        _veryFirstLogin = true;
     }
 
     public void PressHomeButton()
@@ -1530,7 +1616,7 @@ public class text : MonoBehaviour
         if (_pressStartButton)
         {
             if (_firstLogin)
-            { 
+            {
                 Start();
             }
             
@@ -1547,12 +1633,45 @@ public class text : MonoBehaviour
         }
         else
         {
+            if (_veryFirstLogin)
+            {
+                item.statisticsFromFile = textStatistics.text;
+                item.speedFromFile = textInform.text;
+                SaveToFile();
+            }
             string space = "  ";
             textMain.text = space;
         }
         
     }
 
+    public void PressButtonStat1()
+    {
+        Item tempItem;
+        tempItem = JsonUtility.FromJson<Item>(File.ReadAllText(Application.streamingAssetsPath + "/Text1.json"));
+        textEnterStat.text = "\nText1\n\n" + tempItem.speedFromFile + "\n\n" + tempItem.statisticsFromFile;
+    }
+    
+    public void PressButtonStat2()
+    {
+        Item tempItem;
+        tempItem = JsonUtility.FromJson<Item>(File.ReadAllText(Application.streamingAssetsPath + "/Text2.json"));
+        textEnterStat.text = "\nText2\n\n" + tempItem.speedFromFile + "\n\n" + tempItem.statisticsFromFile;
+    }
+    
+    public void PressButtonStat3()
+    {
+        Item tempItem;
+        tempItem = JsonUtility.FromJson<Item>(File.ReadAllText(Application.streamingAssetsPath + "/Text3.json"));
+        textEnterStat.text = "\nText3\n\n" + tempItem.speedFromFile + "\n\n" + tempItem.statisticsFromFile;
+    }
+    
+    public void PressButtonStat4()
+    {
+        Item tempItem;
+        tempItem = JsonUtility.FromJson<Item>(File.ReadAllText(Application.streamingAssetsPath + "/Text4.json"));
+        textEnterStat.text = "\nText4\n\n" + tempItem.speedFromFile + "\n\n" + tempItem.statisticsFromFile;
+    }
     private void CallingMainMethods(string lungStr)
     {
         
@@ -1561,7 +1680,6 @@ public class text : MonoBehaviour
                
         if(_str.Length == 0)  //Сработывает только один раз
         {
-                   
             if(_oneEnter == 1)
             {
                 if (lungStr == "ru")
@@ -2014,7 +2132,6 @@ public class text : MonoBehaviour
 
     private void EnterInform()
     {
-        //int[] enterBut = new int[104];
         for (int i = 0; i < 104; i++)
         {
             if (_numButton[i] != 0)

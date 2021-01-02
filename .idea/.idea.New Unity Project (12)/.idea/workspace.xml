@@ -21,21 +21,23 @@
   <component name="ChangeListManager">
     <list default="true" id="1bffa236-8ca4-46af-b3c1-8f0db4a32974" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (12)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayAmina.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayAmina.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/text.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/72/728cd35542c6b14440fbfefb3cf2d5dc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/33/3348b86bfb1b758cdc13eac45473a70b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text3.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +51,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ClickAnimationScripts/new/TwoTopicScripts/TwoBackspace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SelectText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ActiveScreens.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/dontBlink1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ThreelCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/ThreeEnter.cs" />
         <option value="$PROJECT_DIR$/Assets/ThreerShift.cs" />
         <option value="$PROJECT_DIR$/Assets/ThreelShift.cs" />
@@ -99,12 +101,13 @@
         <option value="$PROJECT_DIR$/Assets/Threeб.cs" />
         <option value="$PROJECT_DIR$/Assets/Threeи.cs" />
         <option value="$PROJECT_DIR$/Assets/Threeм.cs" />
-        <option value="$PROJECT_DIR$/Assets/settings.cs" />
         <option value="$PROJECT_DIR$/Assets/DontBlink.cs" />
         <option value="$PROJECT_DIR$/Assets/ClickAnimationScripts/new/ThreeTopicScripts/ThreeC0.cs" />
         <option value="$PROJECT_DIR$/Assets/dontBlink1.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayAmina.cs" />
         <option value="$PROJECT_DIR$/Assets/ActiveScreens.cs" />
+        <option value="$PROJECT_DIR$/Assets/settings.cs" />
+        <option value="$PROJECT_DIR$/Assets/SelectText.cs" />
         <option value="$PROJECT_DIR$/Assets/text.cs" />
       </list>
     </option>
@@ -211,7 +214,11 @@
       <workItem from="1608408566386" duration="8739000" />
       <workItem from="1608495537146" duration="9852000" />
       <workItem from="1608623972191" duration="2684000" />
-      <workItem from="1608646135552" duration="2520000" />
+      <workItem from="1608646135552" duration="3121000" />
+      <workItem from="1608978948296" duration="657000" />
+      <workItem from="1609326940823" duration="10000" />
+      <workItem from="1609326973866" duration="19446000" />
+      <workItem from="1609572614299" duration="3248000" />
     </task>
     <servers />
   </component>
